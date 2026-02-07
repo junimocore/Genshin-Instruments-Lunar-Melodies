@@ -1,0 +1,37 @@
+{
+    "values": [
+        "genshinstrument_lm:windsong_lyre",
+        "genshinstrument_lm:vintage_lyre",
+        "genshinstrument_lm:floral_zither",
+        "genshinstrument_lm:glorious_drum",
+        "genshinstrument_lm:nightwind_horn",
+        "genshinstrument_lm:ukulele",
+        "genshinstrument_lm:djem_djem_drum",
+
+        "genshinstrument_lm:keyboard",
+        "genshinstrument_lm:violin",
+        "genshinstrument_lm:guitar",
+        "genshinstrument_lm:trombone",
+        "genshinstrument_lm:saxophone",
+        "genshinstrument_lm:pipa",
+        "genshinstrument_lm:shamisen",
+        "genshinstrument_lm:koto",
+
+        "genshinstrument_lm:banjo_note_block_instrument",
+        "genshinstrument_lm:basedrum_note_block_instrument",
+        "genshinstrument_lm:bass_note_block_instrument",
+        "genshinstrument_lm:bell_note_block_instrument",
+        "genshinstrument_lm:bit_note_block_instrument",
+        "genshinstrument_lm:chime_note_block_instrument",
+        "genshinstrument_lm:cow_bell_note_block_instrument",
+        "genshinstrument_lm:didgeridoo_note_block_instrument",
+        "genshinstrument_lm:flute_note_block_instrument",
+        "genshinstrument_lm:guitar_note_block_instrument",
+        "genshinstrument_lm:harp_note_block_instrument",
+        "genshinstrument_lm:hat_note_block_instrument",
+        "genshinstrument_lm:iron_xylophone_note_block_instrument",
+        "genshinstrument_lm:pling_note_block_instrument",
+        "genshinstrument_lm:snare_note_block_instrument",
+        "genshinstrument_lm:xylophone_note_block_instrument"
+    ]
+}

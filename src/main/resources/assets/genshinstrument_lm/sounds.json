@@ -1,0 +1,2239 @@
+{
+    "windsong_lyre_note_0": {
+        "catrgory": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/0"]
+    },
+    "windsong_lyre_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/1"]
+    },
+    "windsong_lyre_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/2"]
+    },
+    "windsong_lyre_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/3"]
+    },
+    "windsong_lyre_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/4"]
+    },
+    "windsong_lyre_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/5"]
+    },
+    "windsong_lyre_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/6"]
+    },
+    "windsong_lyre_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/7"]
+    },
+    "windsong_lyre_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/8"]
+    },
+    "windsong_lyre_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/9"]
+    },
+    "windsong_lyre_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/10"]
+    },
+    "windsong_lyre_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/11"]
+    },
+    "windsong_lyre_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/12"]
+    },
+    "windsong_lyre_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/13"]
+    },
+    "windsong_lyre_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/14"]
+    },
+    "windsong_lyre_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/15"]
+    },
+    "windsong_lyre_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/16"]
+    },
+    "windsong_lyre_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/17"]
+    },
+    "windsong_lyre_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/18"]
+    },
+    "windsong_lyre_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/19"]
+    },
+    "windsong_lyre_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/20"]
+    },
+
+    "windsong_lyre_note_0_stereo": {
+        "catrgory": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/0.stereo"]
+    },
+    "windsong_lyre_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/1.stereo"]
+    },
+    "windsong_lyre_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/2.stereo"]
+    },
+    "windsong_lyre_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/3.stereo"]
+    },
+    "windsong_lyre_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/4.stereo"]
+    },
+    "windsong_lyre_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/5.stereo"]
+    },
+    "windsong_lyre_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/6.stereo"]
+    },
+    "windsong_lyre_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/7.stereo"]
+    },
+    "windsong_lyre_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/8.stereo"]
+    },
+    "windsong_lyre_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/9.stereo"]
+    },
+    "windsong_lyre_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/10.stereo"]
+    },
+    "windsong_lyre_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/11.stereo"]
+    },
+    "windsong_lyre_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/12.stereo"]
+    },
+    "windsong_lyre_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/13.stereo"]
+    },
+    "windsong_lyre_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/14.stereo"]
+    },
+    "windsong_lyre_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/15.stereo"]
+    },
+    "windsong_lyre_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/16.stereo"]
+    },
+    "windsong_lyre_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/17.stereo"]
+    },
+    "windsong_lyre_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/18.stereo"]
+    },
+    "windsong_lyre_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/19.stereo"]
+    },
+    "windsong_lyre_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:windsong_lyre/20.stereo"]
+    },
+
+
+    "floral_zither_old_note_0": {
+        "catrgory": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/0"]
+    },
+    "floral_zither_old_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/1"]
+    },
+    "floral_zither_old_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/2"]
+    },
+    "floral_zither_old_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/3"]
+    },
+    "floral_zither_old_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/4"]
+    },
+    "floral_zither_old_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/5"]
+    },
+    "floral_zither_old_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/6"]
+    },
+    "floral_zither_old_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/7"]
+    },
+    "floral_zither_old_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/8"]
+    },
+    "floral_zither_old_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/9"]
+    },
+    "floral_zither_old_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/10"]
+    },
+    "floral_zither_old_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/11"]
+    },
+    "floral_zither_old_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/12"]
+    },
+    "floral_zither_old_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/13"]
+    },
+    "floral_zither_old_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/14"]
+    },
+    "floral_zither_old_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/15"]
+    },
+    "floral_zither_old_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/16"]
+    },
+    "floral_zither_old_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/17"]
+    },
+    "floral_zither_old_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/18"]
+    },
+    "floral_zither_old_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/19"]
+    },
+    "floral_zither_old_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_old/20"]
+    },
+
+    "floral_zither_new_note_0": {
+        "catrgory": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/0"]
+    },
+    "floral_zither_new_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/1"]
+    },
+    "floral_zither_new_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/2"]
+    },
+    "floral_zither_new_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/3"]
+    },
+    "floral_zither_new_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/4"]
+    },
+    "floral_zither_new_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/5"]
+    },
+    "floral_zither_new_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/6"]
+    },
+    "floral_zither_new_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/7"]
+    },
+    "floral_zither_new_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/8"]
+    },
+    "floral_zither_new_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/9"]
+    },
+    "floral_zither_new_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/10"]
+    },
+    "floral_zither_new_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/11"]
+    },
+    "floral_zither_new_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/12"]
+    },
+    "floral_zither_new_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/13"]
+    },
+    "floral_zither_new_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/14"]
+    },
+    "floral_zither_new_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/15"]
+    },
+    "floral_zither_new_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/16"]
+    },
+    "floral_zither_new_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/17"]
+    },
+    "floral_zither_new_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/18"]
+    },
+    "floral_zither_new_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/19"]
+    },
+    "floral_zither_new_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:floral_zither_new/20"]
+    },
+
+
+    "vintage_lyre_note_0": {
+        "catrgory": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/0"]
+    },
+    "vintage_lyre_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/1"]
+    },
+    "vintage_lyre_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/2"]
+    },
+    "vintage_lyre_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/3"]
+    },
+    "vintage_lyre_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/4"]
+    },
+    "vintage_lyre_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/5"]
+    },
+    "vintage_lyre_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/6"]
+    },
+    "vintage_lyre_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/7"]
+    },
+    "vintage_lyre_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/8"]
+    },
+    "vintage_lyre_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/9"]
+    },
+    "vintage_lyre_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/10"]
+    },
+    "vintage_lyre_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/11"]
+    },
+    "vintage_lyre_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/12"]
+    },
+    "vintage_lyre_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/13"]
+    },
+    "vintage_lyre_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/14"]
+    },
+    "vintage_lyre_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/15"]
+    },
+    "vintage_lyre_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/16"]
+    },
+    "vintage_lyre_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/17"]
+    },
+    "vintage_lyre_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/18"]
+    },
+    "vintage_lyre_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/19"]
+    },
+    "vintage_lyre_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:vintage_lyre/20"]
+    },
+
+
+    "glorious_drum_don": {
+        "catrgory": "record",
+        "sounds": ["genshinstrument_lm:glorious_drum/don"]
+    },
+    "glorious_drum_ka": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:glorious_drum/ka"]
+    },
+    "glorious_drum_ka_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:glorious_drum/ka.stereo"]
+    },
+
+
+    "nightwind_horn_hold_note_0": {
+        "catrgory": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/0"]
+    },
+    "nightwind_horn_hold_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/1"]
+    },
+    "nightwind_horn_hold_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/2"]
+    },
+    "nightwind_horn_hold_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/3"]
+    },
+    "nightwind_horn_hold_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/4"]
+    },
+    "nightwind_horn_hold_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/5"]
+    },
+    "nightwind_horn_hold_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/6"]
+    },
+    "nightwind_horn_hold_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/7"]
+    },
+    "nightwind_horn_hold_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/8"]
+    },
+    "nightwind_horn_hold_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/9"]
+    },
+    "nightwind_horn_hold_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/10"]
+    },
+    "nightwind_horn_hold_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/11"]
+    },
+    "nightwind_horn_hold_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/12"]
+    },
+    "nightwind_horn_hold_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/13"]
+    },
+
+    "nightwind_horn_hold_note_0_stereo": {
+        "catrgory": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/0.stereo"]
+    },
+    "nightwind_horn_hold_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/1.stereo"]
+    },
+    "nightwind_horn_hold_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/2.stereo"]
+    },
+    "nightwind_horn_hold_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/3.stereo"]
+    },
+    "nightwind_horn_hold_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/4.stereo"]
+    },
+    "nightwind_horn_hold_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/5.stereo"]
+    },
+    "nightwind_horn_hold_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/6.stereo"]
+    },
+    "nightwind_horn_hold_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/7.stereo"]
+    },
+    "nightwind_horn_hold_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/8.stereo"]
+    },
+    "nightwind_horn_hold_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/9.stereo"]
+    },
+    "nightwind_horn_hold_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/10.stereo"]
+    },
+    "nightwind_horn_hold_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/11.stereo"]
+    },
+    "nightwind_horn_hold_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/12.stereo"]
+    },
+    "nightwind_horn_hold_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/hold/13.stereo"]
+    },
+
+    "nightwind_horn_attack_note_0": {
+        "catrgory": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/0"]
+    },
+    "nightwind_horn_attack_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/1"]
+    },
+    "nightwind_horn_attack_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/2"]
+    },
+    "nightwind_horn_attack_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/3"]
+    },
+    "nightwind_horn_attack_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/4"]
+    },
+    "nightwind_horn_attack_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/5"]
+    },
+    "nightwind_horn_attack_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/6"]
+    },
+    "nightwind_horn_attack_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/7"]
+    },
+    "nightwind_horn_attack_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/8"]
+    },
+    "nightwind_horn_attack_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/9"]
+    },
+    "nightwind_horn_attack_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/10"]
+    },
+    "nightwind_horn_attack_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/11"]
+    },
+    "nightwind_horn_attack_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/12"]
+    },
+    "nightwind_horn_attack_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/13"]
+    },
+
+    "nightwind_horn_attack_note_0_stereo": {
+        "catrgory": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/0.stereo"]
+    },
+    "nightwind_horn_attack_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/1.stereo"]
+    },
+    "nightwind_horn_attack_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/2.stereo"]
+    },
+    "nightwind_horn_attack_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/3.stereo"]
+    },
+    "nightwind_horn_attack_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/4.stereo"]
+    },
+    "nightwind_horn_attack_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/5.stereo"]
+    },
+    "nightwind_horn_attack_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/6.stereo"]
+    },
+    "nightwind_horn_attack_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/7.stereo"]
+    },
+    "nightwind_horn_attack_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/8.stereo"]
+    },
+    "nightwind_horn_attack_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/9.stereo"]
+    },
+    "nightwind_horn_attack_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/10.stereo"]
+    },
+    "nightwind_horn_attack_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/11.stereo"]
+    },
+    "nightwind_horn_attack_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/12.stereo"]
+    },
+    "nightwind_horn_attack_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:nightwind_horn/attack/13.stereo"]
+    },
+
+
+    "ukulele_note_0": {
+        "catrgory": "record",
+        "sounds": ["genshinstrument_lm:ukulele/0"]
+    },
+    "ukulele_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/1"]
+    },
+    "ukulele_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/2"]
+    },
+    "ukulele_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/3"]
+    },
+    "ukulele_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/4"]
+    },
+    "ukulele_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/5"]
+    },
+    "ukulele_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/6"]
+    },
+    "ukulele_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/7"]
+    },
+    "ukulele_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/8"]
+    },
+    "ukulele_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/9"]
+    },
+    "ukulele_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/10"]
+    },
+    "ukulele_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/11"]
+    },
+    "ukulele_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/12"]
+    },
+    "ukulele_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/13"]
+    },
+    "ukulele_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/14"]
+    },
+    "ukulele_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/15"]
+    },
+    "ukulele_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/16"]
+    },
+    "ukulele_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/17"]
+    },
+    "ukulele_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/18"]
+    },
+    "ukulele_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/19"]
+    },
+    "ukulele_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:ukulele/20"]
+    },
+
+    "djem_djem_drum_note_0": {
+        "catrgory": "record",
+        "sounds": ["genshinstrument_lm:djem_djem_drum/0"]
+    },
+    "djem_djem_drum_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:djem_djem_drum/1"]
+    },
+    "djem_djem_drum_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:djem_djem_drum/2"]
+    },
+    "djem_djem_drum_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:djem_djem_drum/3"]
+    },
+    "djem_djem_drum_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:djem_djem_drum/4"]
+    },
+    "djem_djem_drum_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:djem_djem_drum/5"]
+    },
+    "djem_djem_drum_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:djem_djem_drum/6"]
+    },
+    "djem_djem_drum_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:djem_djem_drum/7"]
+    },
+
+    "keyboard_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/0"]
+    },
+    "keyboard_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/1"]
+    },
+    "keyboard_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/2"]
+    },
+    "keyboard_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/3"]
+    },
+    "keyboard_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/4"]
+    },
+    "keyboard_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/5"]
+    },
+    "keyboard_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/6"]
+    },
+    "keyboard_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/7"]
+    },
+    "keyboard_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/8"]
+    },
+    "keyboard_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/9"]
+    },
+    "keyboard_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/10"]
+    },
+    "keyboard_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/11"]
+    },
+    "keyboard_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/12"]
+    },
+    "keyboard_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/13"]
+    },
+    "keyboard_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/14"]
+    },
+    "keyboard_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/15"]
+    },
+    "keyboard_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/16"]
+    },
+    "keyboard_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/17"]
+    },
+    "keyboard_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/18"]
+    },
+    "keyboard_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/19"]
+    },
+    "keyboard_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/20"]
+    },
+
+    "keyboard_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/0.stereo"]
+    },
+    "keyboard_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/1.stereo"]
+    },
+    "keyboard_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/2.stereo"]
+    },
+    "keyboard_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/3.stereo"]
+    },
+    "keyboard_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/4.stereo"]
+    },
+    "keyboard_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/5.stereo"]
+    },
+    "keyboard_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/6.stereo"]
+    },
+    "keyboard_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/7.stereo"]
+    },
+    "keyboard_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/8.stereo"]
+    },
+    "keyboard_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/9.stereo"]
+    },
+    "keyboard_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/10.stereo"]
+    },
+    "keyboard_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/11.stereo"]
+    },
+    "keyboard_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/12.stereo"]
+    },
+    "keyboard_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/13.stereo"]
+    },
+    "keyboard_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/14.stereo"]
+    },
+    "keyboard_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/15.stereo"]
+    },
+    "keyboard_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/16.stereo"]
+    },
+    "keyboard_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/17.stereo"]
+    },
+    "keyboard_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/18.stereo"]
+    },
+    "keyboard_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/19.stereo"]
+    },
+    "keyboard_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard/20.stereo"]
+    },
+
+    "keyboard_gw2_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/0"]
+    },
+    "keyboard_gw2_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/1"]
+    },
+    "keyboard_gw2_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/2"]
+    },
+    "keyboard_gw2_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/3"]
+    },
+    "keyboard_gw2_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/4"]
+    },
+    "keyboard_gw2_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/5"]
+    },
+    "keyboard_gw2_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/6"]
+    },
+    "keyboard_gw2_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/7"]
+    },
+    "keyboard_gw2_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/8"]
+    },
+    "keyboard_gw2_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/9"]
+    },
+    "keyboard_gw2_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/10"]
+    },
+    "keyboard_gw2_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/11"]
+    },
+    "keyboard_gw2_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/12"]
+    },
+    "keyboard_gw2_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/13"]
+    },
+    "keyboard_gw2_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/14"]
+    },
+    "keyboard_gw2_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/15"]
+    },
+    "keyboard_gw2_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/16"]
+    },
+    "keyboard_gw2_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/17"]
+    },
+    "keyboard_gw2_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/18"]
+    },
+    "keyboard_gw2_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/19"]
+    },
+    "keyboard_gw2_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/20"]
+    },
+
+    "keyboard_yamaha_c5_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/0.stereo"]
+    },
+    "keyboard_yamaha_c5_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/1.stereo"]
+    },
+    "keyboard_yamaha_c5_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/2.stereo"]
+    },
+    "keyboard_yamaha_c5_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/3.stereo"]
+    },
+    "keyboard_yamaha_c5_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/4.stereo"]
+    },
+    "keyboard_yamaha_c5_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/5.stereo"]
+    },
+    "keyboard_yamaha_c5_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/6.stereo"]
+    },
+    "keyboard_yamaha_c5_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/7.stereo"]
+    },
+    "keyboard_yamaha_c5_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/8.stereo"]
+    },
+    "keyboard_yamaha_c5_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/9.stereo"]
+    },
+    "keyboard_yamaha_c5_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/10.stereo"]
+    },
+    "keyboard_yamaha_c5_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/11.stereo"]
+    },
+    "keyboard_yamaha_c5_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/12.stereo"]
+    },
+    "keyboard_yamaha_c5_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/13.stereo"]
+    },
+    "keyboard_yamaha_c5_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/14.stereo"]
+    },
+    "keyboard_yamaha_c5_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/15.stereo"]
+    },
+    "keyboard_yamaha_c5_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/16.stereo"]
+    },
+    "keyboard_yamaha_c5_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/17.stereo"]
+    },
+    "keyboard_yamaha_c5_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/18.stereo"]
+    },
+    "keyboard_yamaha_c5_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/19.stereo"]
+    },
+    "keyboard_yamaha_c5_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/20.stereo"]
+    },
+
+    "keyboard_yamaha_c5_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/0"]
+    },
+    "keyboard_yamaha_c5_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/1"]
+    },
+    "keyboard_yamaha_c5_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/2"]
+    },
+    "keyboard_yamaha_c5_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/3"]
+    },
+    "keyboard_yamaha_c5_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/4"]
+    },
+    "keyboard_yamaha_c5_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/5"]
+    },
+    "keyboard_yamaha_c5_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/6"]
+    },
+    "keyboard_yamaha_c5_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/7"]
+    },
+    "keyboard_yamaha_c5_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/8"]
+    },
+    "keyboard_yamaha_c5_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/9"]
+    },
+    "keyboard_yamaha_c5_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/10"]
+    },
+    "keyboard_yamaha_c5_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/11"]
+    },
+    "keyboard_yamaha_c5_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/12"]
+    },
+    "keyboard_yamaha_c5_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/13"]
+    },
+    "keyboard_yamaha_c5_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/14"]
+    },
+    "keyboard_yamaha_c5_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/15"]
+    },
+    "keyboard_yamaha_c5_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/16"]
+    },
+    "keyboard_yamaha_c5_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/17"]
+    },
+    "keyboard_yamaha_c5_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/18"]
+    },
+    "keyboard_yamaha_c5_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/19"]
+    },
+    "keyboard_yamaha_c5_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_yamaha_c5/20"]
+    },
+
+    "violin_slow_hold_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/0"]
+    },
+    "violin_slow_hold_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/1"]
+    },
+    "violin_slow_hold_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/2"]
+    },
+    "violin_slow_hold_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/3"]
+    },
+    "violin_slow_hold_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/4"]
+    },
+    "violin_slow_hold_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/5"]
+    },
+    "violin_slow_hold_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/6"]
+    },
+    "violin_slow_hold_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/7"]
+    },
+    "violin_slow_hold_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/8"]
+    },
+    "violin_slow_hold_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/9"]
+    },
+    "violin_slow_hold_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/10"]
+    },
+    "violin_slow_hold_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/11"]
+    },
+    "violin_slow_hold_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/12"]
+    },
+    "violin_slow_hold_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/13"]
+    },
+    "violin_slow_hold_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/14"]
+    },
+    "violin_slow_hold_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/15"]
+    },
+    "violin_slow_hold_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/16"]
+    },
+    "violin_slow_hold_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/17"]
+    },
+    "violin_slow_hold_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/18"]
+    },
+    "violin_slow_hold_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/19"]
+    },
+    "violin_slow_hold_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/20"]
+    },
+
+    "violin_slow_hold_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/0.stereo"]
+    },
+    "violin_slow_hold_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/1.stereo"]
+    },
+    "violin_slow_hold_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/2.stereo"]
+    },
+    "violin_slow_hold_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/3.stereo"]
+    },
+    "violin_slow_hold_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/4.stereo"]
+    },
+    "violin_slow_hold_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/5.stereo"]
+    },
+    "violin_slow_hold_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/6.stereo"]
+    },
+    "violin_slow_hold_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/7.stereo"]
+    },
+    "violin_slow_hold_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/8.stereo"]
+    },
+    "violin_slow_hold_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/9.stereo"]
+    },
+    "violin_slow_hold_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/10.stereo"]
+    },
+    "violin_slow_hold_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/11.stereo"]
+    },
+    "violin_slow_hold_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/12.stereo"]
+    },
+    "violin_slow_hold_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/13.stereo"]
+    },
+    "violin_slow_hold_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/14.stereo"]
+    },
+    "violin_slow_hold_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/15.stereo"]
+    },
+    "violin_slow_hold_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/16.stereo"]
+    },
+    "violin_slow_hold_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/17.stereo"]
+    },
+    "violin_slow_hold_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/18.stereo"]
+    },
+    "violin_slow_hold_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/19.stereo"]
+    },
+    "violin_slow_hold_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/hold/20.stereo"]
+    },
+
+    "violin_slow_attack_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/0"]
+    },
+    "violin_slow_attack_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/1"]
+    },
+    "violin_slow_attack_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/2"]
+    },
+    "violin_slow_attack_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/3"]
+    },
+    "violin_slow_attack_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/4"]
+    },
+    "violin_slow_attack_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/5"]
+    },
+    "violin_slow_attack_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/6"]
+    },
+    "violin_slow_attack_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/7"]
+    },
+    "violin_slow_attack_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/8"]
+    },
+    "violin_slow_attack_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/9"]
+    },
+    "violin_slow_attack_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/10"]
+    },
+    "violin_slow_attack_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/11"]
+    },
+    "violin_slow_attack_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/12"]
+    },
+    "violin_slow_attack_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/13"]
+    },
+    "violin_slow_attack_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/14"]
+    },
+    "violin_slow_attack_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/15"]
+    },
+    "violin_slow_attack_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/16"]
+    },
+    "violin_slow_attack_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/17"]
+    },
+    "violin_slow_attack_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/18"]
+    },
+    "violin_slow_attack_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/19"]
+    },
+    "violin_slow_attack_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/20"]
+    },
+
+    "violin_slow_attack_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/0.stereo"]
+    },
+    "violin_slow_attack_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/1.stereo"]
+    },
+    "violin_slow_attack_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/2.stereo"]
+    },
+    "violin_slow_attack_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/3.stereo"]
+    },
+    "violin_slow_attack_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/4.stereo"]
+    },
+    "violin_slow_attack_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/5.stereo"]
+    },
+    "violin_slow_attack_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/6.stereo"]
+    },
+    "violin_slow_attack_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/7.stereo"]
+    },
+    "violin_slow_attack_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/8.stereo"]
+    },
+    "violin_slow_attack_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/9.stereo"]
+    },
+    "violin_slow_attack_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/10.stereo"]
+    },
+    "violin_slow_attack_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/11.stereo"]
+    },
+    "violin_slow_attack_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/12.stereo"]
+    },
+    "violin_slow_attack_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/13.stereo"]
+    },
+    "violin_slow_attack_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/14.stereo"]
+    },
+    "violin_slow_attack_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/15.stereo"]
+    },
+    "violin_slow_attack_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/16.stereo"]
+    },
+    "violin_slow_attack_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/17.stereo"]
+    },
+    "violin_slow_attack_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/18.stereo"]
+    },
+    "violin_slow_attack_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/19.stereo"]
+    },
+    "violin_slow_attack_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_slow/attack/20.stereo"]
+    },
+
+    "trombone_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/0"]
+    },
+    "trombone_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/1"]
+    },
+    "trombone_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/2"]
+    },
+    "trombone_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/3"]
+    },
+    "trombone_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/4"]
+    },
+    "trombone_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/5"]
+    },
+    "trombone_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/6"]
+    },
+    "trombone_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/7"]
+    },
+    "trombone_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/8"]
+    },
+    "trombone_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/9"]
+    },
+    "trombone_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/10"]
+    },
+    "trombone_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/11"]
+    },
+    "trombone_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/12"]
+    },
+    "trombone_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/13"]
+    },
+    "trombone_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/14"]
+    },
+    "trombone_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/15"]
+    },
+    "trombone_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/16"]
+    },
+    "trombone_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/17"]
+    },
+    "trombone_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/18"]
+    },
+    "trombone_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/19"]
+    },
+    "trombone_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone/20"]
+    },
+
+
+    "guitar_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/0"]
+    },
+    "guitar_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/1"]
+    },
+    "guitar_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/2"]
+    },
+    "guitar_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/3"]
+    },
+    "guitar_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/4"]
+    },
+    "guitar_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/5"]
+    },
+    "guitar_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/6"]
+    },
+    "guitar_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/7"]
+    },
+    "guitar_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/8"]
+    },
+    "guitar_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/9"]
+    },
+    "guitar_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/10"]
+    },
+    "guitar_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/11"]
+    },
+    "guitar_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/12"]
+    },
+    "guitar_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/13"]
+    },
+    "guitar_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/14"]
+    },
+    "guitar_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/15"]
+    },
+    "guitar_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/16"]
+    },
+    "guitar_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/17"]
+    },
+    "guitar_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/18"]
+    },
+    "guitar_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/19"]
+    },
+    "guitar_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:guitar/20"]
+    },
+
+
+    "saxophone_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/0"]
+    },
+    "saxophone_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/1"]
+    },
+    "saxophone_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/2"]
+    },
+    "saxophone_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/3"]
+    },
+    "saxophone_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/4"]
+    },
+    "saxophone_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/5"]
+    },
+    "saxophone_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/6"]
+    },
+    "saxophone_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/7"]
+    },
+    "saxophone_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/8"]
+    },
+    "saxophone_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/9"]
+    },
+    "saxophone_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/10"]
+    },
+    "saxophone_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/11"]
+    },
+    "saxophone_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/12"]
+    },
+    "saxophone_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/13"]
+    },
+    "saxophone_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/14"]
+    },
+    "saxophone_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/15"]
+    },
+    "saxophone_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/16"]
+    },
+    "saxophone_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/17"]
+    },
+    "saxophone_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/18"]
+    },
+    "saxophone_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/19"]
+    },
+    "saxophone_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone/20"]
+    },
+
+
+    "pipa_regular_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/0"]
+    },
+    "pipa_regular_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/1"]
+    },
+    "pipa_regular_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/2"]
+    },
+    "pipa_regular_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/3"]
+    },
+    "pipa_regular_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/4"]
+    },
+    "pipa_regular_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/5"]
+    },
+    "pipa_regular_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/6"]
+    },
+    "pipa_regular_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/7"]
+    },
+    "pipa_regular_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/8"]
+    },
+    "pipa_regular_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/9"]
+    },
+    "pipa_regular_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/10"]
+    },
+    "pipa_regular_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/11"]
+    },
+    "pipa_regular_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/12"]
+    },
+    "pipa_regular_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/13"]
+    },
+    "pipa_regular_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/14"]
+    },
+    "pipa_regular_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/15"]
+    },
+    "pipa_regular_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/16"]
+    },
+    "pipa_regular_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/17"]
+    },
+    "pipa_regular_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/18"]
+    },
+    "pipa_regular_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/19"]
+    },
+    "pipa_regular_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_regular/20"]
+    },
+
+    "pipa_tremolo_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/0"]
+    },
+    "pipa_tremolo_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/1"]
+    },
+    "pipa_tremolo_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/2"]
+    },
+    "pipa_tremolo_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/3"]
+    },
+    "pipa_tremolo_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/4"]
+    },
+    "pipa_tremolo_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/5"]
+    },
+    "pipa_tremolo_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/6"]
+    },
+    "pipa_tremolo_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/7"]
+    },
+    "pipa_tremolo_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/8"]
+    },
+    "pipa_tremolo_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/9"]
+    },
+    "pipa_tremolo_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/10"]
+    },
+    "pipa_tremolo_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/11"]
+    },
+    "pipa_tremolo_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/12"]
+    },
+    "pipa_tremolo_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/13"]
+    },
+    "pipa_tremolo_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/14"]
+    },
+    "pipa_tremolo_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/15"]
+    },
+    "pipa_tremolo_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/16"]
+    },
+    "pipa_tremolo_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/17"]
+    },
+    "pipa_tremolo_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/18"]
+    },
+    "pipa_tremolo_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/19"]
+    },
+    "pipa_tremolo_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:pipa/pipa_tremolo/20"]
+    },
+
+
+    "shamisen_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/0"]
+    },
+    "shamisen_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/1"]
+    },
+    "shamisen_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/2"]
+    },
+    "shamisen_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/3"]
+    },
+    "shamisen_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/4"]
+    },
+    "shamisen_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/5"]
+    },
+    "shamisen_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/6"]
+    },
+    "shamisen_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/7"]
+    },
+    "shamisen_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/8"]
+    },
+    "shamisen_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/9"]
+    },
+    "shamisen_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/10"]
+    },
+    "shamisen_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/11"]
+    },
+    "shamisen_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/12"]
+    },
+    "shamisen_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/13"]
+    },
+    "shamisen_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/14"]
+    },
+    "shamisen_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/15"]
+    },
+    "shamisen_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/16"]
+    },
+    "shamisen_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/17"]
+    },
+    "shamisen_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/18"]
+    },
+    "shamisen_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/19"]
+    },
+    "shamisen_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/20"]
+    },
+
+    "shamisen_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/0.stereo"]
+    },
+    "shamisen_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/1.stereo"]
+    },
+    "shamisen_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/2.stereo"]
+    },
+    "shamisen_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/3.stereo"]
+    },
+    "shamisen_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/4.stereo"]
+    },
+    "shamisen_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/5.stereo"]
+    },
+    "shamisen_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/6.stereo"]
+    },
+    "shamisen_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/7.stereo"]
+    },
+    "shamisen_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/8.stereo"]
+    },
+    "shamisen_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/9.stereo"]
+    },
+    "shamisen_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/10.stereo"]
+    },
+    "shamisen_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/11.stereo"]
+    },
+    "shamisen_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/12.stereo"]
+    },
+    "shamisen_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/13.stereo"]
+    },
+    "shamisen_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/14.stereo"]
+    },
+    "shamisen_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/15.stereo"]
+    },
+    "shamisen_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/16.stereo"]
+    },
+    "shamisen_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/17.stereo"]
+    },
+    "shamisen_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/18.stereo"]
+    },
+    "shamisen_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/19.stereo"]
+    },
+    "shamisen_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:shamisen/20.stereo"]
+    },
+
+    "koto_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/0"]
+    },
+    "koto_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/1"]
+    },
+    "koto_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/2"]
+    },
+    "koto_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/3"]
+    },
+    "koto_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/4"]
+    },
+    "koto_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/5"]
+    },
+    "koto_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/6"]
+    },
+    "koto_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/7"]
+    },
+    "koto_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/8"]
+    },
+    "koto_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/9"]
+    },
+    "koto_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/10"]
+    },
+    "koto_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/11"]
+    },
+    "koto_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/12"]
+    },
+    "koto_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/13"]
+    },
+    "koto_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/14"]
+    },
+    "koto_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/15"]
+    },
+    "koto_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/16"]
+    },
+    "koto_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/17"]
+    },
+    "koto_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/18"]
+    },
+    "koto_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/19"]
+    },
+    "koto_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:koto/20"]
+    }
+}

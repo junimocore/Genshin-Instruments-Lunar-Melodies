@@ -1,0 +1,14 @@
+{
+    "values": [
+        "genshinstrument_lm:windsong_lyre",
+        "genshinstrument_lm:vintage_lyre",
+        "genshinstrument_lm:floral_zither",
+        "genshinstrument_lm:ukulele",
+
+        "genshinstrument_lm:violin",
+        "genshinstrument_lm:guitar",
+        "genshinstrument_lm:pipa",
+        "genshinstrument_lm:shamisen",
+        "genshinstrument_lm:koto"
+    ]
+}
