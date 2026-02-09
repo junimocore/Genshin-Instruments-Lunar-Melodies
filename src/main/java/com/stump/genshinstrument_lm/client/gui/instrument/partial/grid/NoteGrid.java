@@ -56,13 +56,13 @@ public class NoteGrid implements Iterable<NoteGridButton> {
 
             for (int j = 0; j < rows; j++)
                 if (instrumentScreen.isSSTI()) {
-                    buttonRow[j] = instrumentScreen.createNote(j, column,
+                    buttonRow[j] = instrumentScreen.createNoteButton(j, column,
                         // Provide the flipped column to the provider
                         // because the lowest pitch should be at the bottom and not vice-versa
                         pitchProvider.get(j, i)
                     );
                 } else
-                    buttonRow[j] = instrumentScreen.createNote(j, column);
+                    buttonRow[j] = instrumentScreen.createNoteButton(j, column);
 
             
             notes[i] = buttonRow;

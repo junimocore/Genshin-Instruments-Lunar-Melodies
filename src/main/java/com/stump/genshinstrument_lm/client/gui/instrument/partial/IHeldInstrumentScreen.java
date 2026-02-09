@@ -72,21 +72,28 @@ public interface IHeldInstrumentScreen {
     default void closeHeldScreen() {
         final Player player = Minecraft.getInstance().player;
 
+        // Release all sounds
         HeldNoteSounds.getUnique(
-            // Release all sounds relating to this player
-            HeldNoteSounds.release(
-                InitiatorID.fromEntity(player)
-            )
+                HeldNoteSounds.release(
+                        InitiatorID.fromEntity(player)
+                )
         ).forEach((sound) -> {
-            // Then, notify their release.
-            //NOTE: We don't care for the 'notify' parameter.
-            // The server will not know about this behaviour ever
-            // if we don't tell it.
-            HeldNoteSounds.notifyRelease(
-                sound,
-                ((NoteButton) getNoteButton(sound.heldSoundContainer, sound.notePitch))
-                    .getIdentifier()
-            );
+            try {
+                NoteButton btn = (NoteButton) getNoteButton(sound.heldSoundContainer, sound.notePitch);
+                HeldNoteSounds.notifyRelease(
+                        sound,
+                        btn.getIdentifier()
+                );
+            } catch (NoSuchElementException ignored) {
+                HeldNoteSounds.notifyRelease(sound, null);
+            }
+        });
+
+        // Mark all buttons as no longer held
+        asScreen().notesIterable().forEach(btn -> {
+            if (btn instanceof IHoldableNoteButton holdableBtn) {
+                holdableBtn.setHeld(false);
+            }
         });
     }
 

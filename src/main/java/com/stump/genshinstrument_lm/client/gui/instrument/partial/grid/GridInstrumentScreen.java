@@ -1,17 +1,20 @@
 package com.stump.genshinstrument_lm.client.gui.instrument.partial.grid;
 
 import com.stump.genshinstrument_lm.client.config.ModClientConfigs;
-import com.stump.genshinstrument_lm.client.gui.instrument.partial.InstrumentScreen;
-import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.NoteButton;
-import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.grid.NoteGridButton;
+import com.stump.genshinstrument_lm.client.gui.instrument.partial.*;
+import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.*;
+import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.grid.*;
+import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.held.IHoldableNoteButton;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.label.NoteLabelSupplier;
 import com.stump.genshinstrument_lm.client.gui.options.GridInstrumentOptionsScreen;
 import com.stump.genshinstrument_lm.client.gui.options.partial.InstrumentOptionsScreen;
 import com.stump.genshinstrument_lm.client.keyMaps.InstrumentKeyMappings;
 import com.stump.genshinstrument_lm.client.midi.InstrumentMidiReceiver;
-import com.stump.genshinstrument_lm.networking.buttonidentifier.NoteButtonIdentifier;
-import com.stump.genshinstrument_lm.networking.buttonidentifier.NoteGridButtonIdentifier;
-import com.stump.genshinstrument_lm.sound.NoteSound;
+import com.stump.genshinstrument_lm.event.InstrumentPlayedEvent;
+import com.stump.genshinstrument_lm.networking.buttonidentifier.*;
+import com.stump.genshinstrument_lm.sound.*;
+import com.stump.genshinstrument_lm.sound.held.HeldNoteSound;
+
 import com.mojang.blaze3d.platform.InputConstants.Key;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.gui.GuiGraphics;
@@ -24,65 +27,64 @@ import java.util.NoSuchElementException;
 import java.util.function.Consumer;
 
 @OnlyIn(Dist.CLIENT)
-public abstract class GridInstrumentScreen extends InstrumentScreen {
+public abstract class GridInstrumentScreen extends InstrumentScreen implements IHeldInstrumentScreen {
     public static final String[] NOTE_LAYOUT = {"C", "D", "E", "F", "G", "A", "B"};
 
-    public static final int DEF_ROWS = 7, DEF_COLUMNS = 3,
-        CLEF_WIDTH = 26, CLEF_HEIGHT = 52;
+    public static final int DEF_ROWS = 7, DEF_COLUMNS = 3;
+    public static final int CLEF_WIDTH = 26, CLEF_HEIGHT = 52;
 
     protected AbstractLayout grid;
+    public NoteGrid noteGrid;
+    protected Map<Key, NoteButton> noteMap;
+    private SoundOption soundOption;
 
-    public int columns() {
-        return DEF_COLUMNS;
-    }
-    public int rows() {
-        return DEF_ROWS;
+    /* ============================================================
+     *  Note Grid Generation
+     * ============================================================ */
+
+    public int columns() { return DEF_COLUMNS; }
+    public int rows() { return DEF_ROWS; }
+
+    public NoteGrid initNoteGrid() {
+        if (isHeldInstrument())
+            return new NoteGrid(this);
+
+        return isSSTI()
+                ? new NoteGrid(this, NoteSound.MIN_PITCH)
+                : new NoteGrid(this);
     }
 
+    protected void buildGrid() {
+        this.noteGrid = initNoteGrid();
+        this.noteMap = noteGrid.genKeyboardMap(InstrumentKeyMappings.GRID_INSTRUMENT_MAPPINGS);
+
+        this.clearWidgets();
+        this.grid = noteGrid.initNoteGridLayout(.9f, width, height);
+        grid.visitWidgets(this::addRenderableWidget);
+        initOptionsButton(grid.getY() - 15);
+    }
+
+    @Override
+    protected void init() {
+        buildGrid();
+        super.init();
+    }
+
+    /* ============================================================
+     *  Note Buttons
+     * ============================================================ */
 
     /**
-     * <p>Gets the sound array used by this instrument.
-     * Its length must be equal to this Note Grid's {@code row*column}.</p>
-     * Each sound is used on press by the their index on the grid.
-     * @return The array of sounds used by this instruments.
+     * Creates a note for a singular sound type (SSTI) instrument
      */
-    public abstract NoteSound[] getInitSounds();
-
-    @Override
-    public void setNoteSounds(NoteSound[] sounds) {
-        noteGrid.setNoteSounds(sounds);
+    public NoteGridButton createNoteButton(int row, int column, int pitch) {
+        return new NoteGridButton(row, column, this, pitch);
     }
-
-    /**
-     * <p>
-     * An SSTI instrument is a Singular Sound-Type Instrument, such that
-     * only the <b>first</b> note in {@link GridInstrumentScreen#getInitSounds()} will get used.
-     * </p><p>
-     * Notes will start with the {@link NoteSound#MIN_PITCH set minimum pitch},
-     * and increment their pitch up by 1 for every new instance.
-     * </p>
-     * This behaviour can be changed by overriding {@link GridInstrumentScreen#initNoteGrid}.
-     */
-    public boolean isSSTI() {
-        return false;
-    }
-    
-    @Override
-    public void setPitch(int pitch) {
-        if (!isSSTI())
-            super.setPitch(pitch);
-    }
-
-    @Override
-    protected void initPitch(Consumer<Integer> pitchConsumer) {
-        if (!isSSTI())
-            super.initPitch(pitchConsumer);
-    }
-
-
-    @Override
-    protected boolean identifyByPitch() {
-        return isSSTI();
+    public NoteGridButton createNoteButton(int row, int column) {
+        if (isHeldInstrument()) {
+            return new HeldGridNoteButton(row, column, this, getHeldNoteSounds());
+        }
+        return new NoteGridButton(row, column, this);
     }
 
     /**
@@ -106,7 +108,6 @@ public abstract class GridInstrumentScreen extends InstrumentScreen {
     public NoteButton getNoteButton(final NoteGridButtonIdentifier noteIdentifier) throws IndexOutOfBoundsException {
         return getNoteButton(noteIdentifier.row, noteGrid.getFlippedColumn(noteIdentifier.column));
     }
-
     public NoteButton getNoteButton(final int row, final int column) throws IndexOutOfBoundsException {
         return noteGrid.getNoteButton(row, column);
     }
@@ -122,15 +123,18 @@ public abstract class GridInstrumentScreen extends InstrumentScreen {
         return getNoteButton(note % rows(), note / rows());
     }
 
-
-    /**
-     * Creates a note for a singular sound type (SSTI) instrument
-     */
-    public NoteGridButton createNote(int row, int column, int pitch) {
-        return new NoteGridButton(row, column, this, pitch);
+    @Override
+    public Map<Key, NoteButton> getNoteMap() {
+        return noteMap;
     }
-    public NoteGridButton createNote(int row, int column) {
-        return new NoteGridButton(row, column, this);
+
+    /* ============================================================
+     *  UI / Render
+     * ============================================================ */
+
+    @Override
+    protected InstrumentOptionsScreen initInstrumentOptionsScreen() {
+        return new GridInstrumentOptionsScreen(this);
     }
 
     /**
@@ -140,58 +144,23 @@ public abstract class GridInstrumentScreen extends InstrumentScreen {
         return ModClientConfigs.GRID_LABEL_TYPE.get().getLabelSupplier();
     }
 
-    
-    // Abstract implementations
+    @Override
+    public String[] noteLayout() { return NOTE_LAYOUT; }
+
     /**
-     * Initializes a new Note Grid to be paired with this instrument
-     * @return The new Note Grid
+     * Used for background rendering while determining how deep to go down
      */
-    public NoteGrid initNoteGrid() {
-        return isSSTI()
-            ? new NoteGrid(this, NoteSound.MIN_PITCH)
-            : new NoteGrid(this);
+    protected int getLayerAddition(final int index) {
+        return index * (getNoteSize() + NoteGrid.getPaddingVert()*2);
     }
-
-
-    public final NoteGrid noteGrid = initNoteGrid();
-    
-    private final Map<Key, NoteButton> noteMap = noteGrid.genKeyboardMap(InstrumentKeyMappings.GRID_INSTRUMENT_MAPPINGS);
-    @Override
-    public Map<Key, NoteButton> noteMap() {
-        return noteMap;
-    }
-
-    @Override
-    protected InstrumentOptionsScreen initInstrumentOptionsScreen() {
-        return new GridInstrumentOptionsScreen(this);
-    }
-
-    @Override
-    public String[] noteLayout() {
-        return NOTE_LAYOUT;
-    }
-    
-
-    @Override
-    protected void init() {
-        grid = noteGrid.initNoteGridLayout(.9f, width, height);
-        grid.visitWidgets(this::addRenderableWidget);
-        
-        initOptionsButton(grid.getY() - 15);
-        super.init();
-    }
-
 
     @Override
     public void renderInstrument(GuiGraphics gui, int pMouseX, int pMouseY, float pPartialTick) {
         if (ModClientConfigs.RENDER_BACKGROUND.get())
             renderInstrumentBackground(gui);
-            
+
         super.renderInstrument(gui, pMouseX, pMouseY, pPartialTick);
     }
-
-
-    // Background rendering
 
     /**
      * Renders the background of this grid instrument.
@@ -214,40 +183,147 @@ public abstract class GridInstrumentScreen extends InstrumentScreen {
         RenderSystem.enableBlend();
 
         gui.blit(getInternalResourceFromGlob("background/clef/"+clefName+".png"),
-            x, grid.getY() + NoteGrid.getPaddingVert() + getLayerAddition(index) - 5,
-            0, 0,
+                x, grid.getY() + NoteGrid.getPaddingVert() + getLayerAddition(index) - 5,
+                0, 0,
 
-            CLEF_WIDTH, CLEF_HEIGHT,
-            CLEF_WIDTH, CLEF_HEIGHT
+                CLEF_WIDTH, CLEF_HEIGHT,
+                CLEF_WIDTH, CLEF_HEIGHT
         );
 
         RenderSystem.disableBlend();
     }
+
     protected void renderStaff(final GuiGraphics gui, final int index) {
         RenderSystem.enableBlend();
 
         gui.blit(getInternalResourceFromGlob("background/staff.png"),
-            grid.getX() + 2, grid.getY() + NoteGrid.getPaddingVert() + getLayerAddition(index),
-            0, 0,
-            
-            grid.getWidth() - 5, getNoteSize(),
-            grid.getWidth() - 5, getNoteSize()
+                grid.getX() + 2, grid.getY() + NoteGrid.getPaddingVert() + getLayerAddition(index),
+                0, 0,
+
+                grid.getWidth() - 5, getNoteSize(),
+                grid.getWidth() - 5, getNoteSize()
         );
 
         RenderSystem.disableBlend();
     }
 
+    /* ============================================================
+     *  Sound Configuration
+     * ============================================================ */
+
     /**
-     * Used for background rendering while determining how deep to go down
+     * <p>
+     * An SSTI instrument is a Singular Sound-Type Instrument, such that
+     * only the <b>first</b> note in {@link GridInstrumentScreen#getInitSounds()} will get used.
+     * </p><p>
+     * Notes will start with the {@link NoteSound#MIN_PITCH set minimum pitch},
+     * and increment their pitch up by 1 for every new instance.
+     * </p>
+     * This behaviour can be changed by overriding {@link GridInstrumentScreen#initNoteGrid}.
      */
-    protected int getLayerAddition(final int index) {
-        return index * (getNoteSize() + NoteGrid.getPaddingVert()*2);
+    public boolean isSSTI() { return false; }
+
+    @Override
+    public void setPitch(int pitch) {
+        if (!isSSTI())
+            super.setPitch(pitch);
     }
 
+    @Override
+    protected boolean identifyByPitch() { return isSSTI(); }
+
+    @Override
+    protected void initPitch(Consumer<Integer> pitchConsumer) {
+        if (!isSSTI())
+            super.initPitch(pitchConsumer);
+    }
+
+    @Override
+    public void setSoundOption(SoundOption option) {
+        boolean wasHeld = this.soundOption != null && this.soundOption.isHeld();
+        boolean nowHeld = option.isHeld();
+
+        // If switching from held type, release old sounds
+        if (wasHeld) {
+            closeHeldScreen();
+        }
+
+        this.soundOption = option;
+
+        // Rebuild buttons if instrument type changes
+        if (wasHeld != nowHeld) {
+            buildGrid();
+            return;
+        }
+
+        // Update sounds
+        if (nowHeld) {
+            setHeldNoteSounds(option.getHeldSounds());
+            setNoteSounds(HeldNoteSound.getSounds(option.getHeldSounds(), HeldNoteSound.Phase.ATTACK));
+        } else {
+            setNoteSounds(option.getNoteSounds());
+        }
+    }
+
+    @Override
+    public SoundOption getSoundOption() {
+        return soundOption;
+    }
+
+    @Override
+    public void setNoteSounds(NoteSound[] sounds) {
+        noteGrid.setNoteSounds(sounds);
+    }
+
+    public NoteSound[] getInitSounds() {
+        SoundOption opt = getSoundOption();
+
+        if (opt.isHeld()) {
+            return HeldNoteSound.getSounds(opt.getHeldSounds(), HeldNoteSound.Phase.ATTACK);
+        }
+        return opt.getNoteSounds();
+    }
+
+    @Override
+    public void setHeldNoteSounds(HeldNoteSound[] heldSounds) {
+        notesIterable().forEach(btn -> {
+            if (btn instanceof IHoldableNoteButton holdableBtn) {
+                int index = ((NoteGridButton) btn).posToIndex();
+                holdableBtn.setHeldNoteSound(heldSounds[index]);
+            }
+        });
+    }
+
+    public HeldNoteSound[] getHeldNoteSounds() {
+        return getSoundOption().getHeldSounds();
+    }
+
+    public boolean isHeldInstrument() {
+        return getSoundOption().isHeld();
+    }
+
+    /* ============================================================
+     *  Playback Stuff
+     * ============================================================ */
 
     @Override
     public InstrumentMidiReceiver initMidiReceiver() {
         return ((rows() != 7) || isSSTI()) ? null : new GridInstrumentMidiReceiver(this);
     }
 
+    @Override
+    public void foreignPlay(final InstrumentPlayedEvent<?> event) {
+        if (isHeldInstrument())
+            foreignPlayHeld(event);
+        else
+            super.foreignPlay(event);
+    }
+
+    @Override
+    public void onClose(final boolean notify) {
+        if (isHeldInstrument())
+            closeHeldScreen();
+
+        super.onClose(notify);
+    }
 }

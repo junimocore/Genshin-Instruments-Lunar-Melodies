@@ -7,6 +7,7 @@ import com.stump.genshinstrument_lm.networking.packet.instrument.c2s.C2SHeldNote
 import com.stump.genshinstrument_lm.networking.packet.instrument.util.HeldSoundPhase;
 import com.stump.genshinstrument_lm.util.MultTuple;
 import net.minecraft.client.Minecraft;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -225,5 +226,4 @@ public abstract class HeldNoteSounds {
 
         return List.of(soundInstance);
     }
-
 }

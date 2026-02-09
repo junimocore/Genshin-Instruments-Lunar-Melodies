@@ -20,6 +20,7 @@ import com.stump.genshinstrument_lm.sound.NoteSound;
 import com.mojang.blaze3d.platform.InputConstants.Key;
 import com.mojang.blaze3d.platform.InputConstants.Type;
 import com.mojang.logging.LogUtils;
+import com.stump.genshinstrument_lm.sound.SoundOption;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.AbstractWidget;
@@ -251,9 +252,9 @@ public abstract class InstrumentScreen extends Screen {
     /**
      * @return A map holding an integer key as its keycode and a {@link NoteButton} as its value.
      */
-    public abstract Map<Key, NoteButton> noteMap();
+    public abstract Map<Key, NoteButton> getNoteMap();
     public Iterable<NoteButton> notesIterable() {
-        return noteMap().values();
+        return getNoteMap().values();
     }
 
     /**
@@ -546,7 +547,7 @@ public abstract class InstrumentScreen extends Screen {
 
     public NoteButton getNoteByKey(final int keyCode) {
         final Key key = Type.KEYSYM.getOrCreate(keyCode);
-        return noteMap().getOrDefault(key, null);
+        return getNoteMap().getOrDefault(key, null);
     }
     /**
      * Unlocks any focused {@link NoteButton}s
@@ -641,5 +642,19 @@ public abstract class InstrumentScreen extends Screen {
     @Override
     public boolean isPauseScreen() {
         return false;
+    }
+
+    private SoundOption soundOption;
+
+    public SoundOption getSoundOption() {
+        return soundOption;
+    }
+
+    public void setSoundOption(SoundOption option) {
+        this.soundOption = option;
+
+        if (!option.isHeld()) {
+            setNoteSounds(option.getNoteSounds());
+        }
     }
 }

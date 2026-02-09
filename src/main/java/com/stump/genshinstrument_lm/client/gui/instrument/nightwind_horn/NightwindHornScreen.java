@@ -1,17 +1,18 @@
 package com.stump.genshinstrument_lm.client.gui.instrument.nightwind_horn;
 
 import com.stump.genshinstrument_lm.GInstrumentMod;
+import com.stump.genshinstrument_lm.client.gui.instrument.partial.IHeldInstrumentScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.InstrumentThemeLoader;
-import com.stump.genshinstrument_lm.client.gui.instrument.partial.grid.HeldGridInstrumentScreen;
+import com.stump.genshinstrument_lm.client.gui.instrument.partial.grid.GridInstrumentScreen;
 import com.stump.genshinstrument_lm.sound.GISounds;
-import com.stump.genshinstrument_lm.sound.held.HeldNoteSound;
+import com.stump.genshinstrument_lm.sound.SoundOption;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
 @OnlyIn(Dist.CLIENT)
-public class NightwindHornScreen extends HeldGridInstrumentScreen {
+public class NightwindHornScreen extends GridInstrumentScreen implements IHeldInstrumentScreen {
     public static final ResourceLocation INSTRUMENT_ID = new ResourceLocation(GInstrumentMod.MODID, "nightwind_horn");
 
     @Override
@@ -20,10 +21,9 @@ public class NightwindHornScreen extends HeldGridInstrumentScreen {
     }
 
     @Override
-    public HeldNoteSound[] getInitHeldNoteSounds() {
-        return GISounds.NIGHTWIND_HORN;
+    public SoundOption getSoundOption() {
+        return new SoundOption(GISounds.NIGHTWIND_HORN);
     }
-
 
     @Override
     public int columns() {
@@ -47,5 +47,4 @@ public class NightwindHornScreen extends HeldGridInstrumentScreen {
     public InstrumentThemeLoader getThemeLoader() {
         return THEME_LOADER;
     }
-    
 }

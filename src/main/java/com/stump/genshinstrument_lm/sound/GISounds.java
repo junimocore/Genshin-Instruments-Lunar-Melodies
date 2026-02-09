@@ -54,7 +54,9 @@ public class GISounds {
         KOTO = nsr(loc("koto")).registerGrid(),
 
         PIPA_REGULAR = nsr(loc("pipa_regular")).registerGrid(),
-        PIPA_TERMOLO = nsr(loc("pipa_tremolo")).registerGrid()
+        PIPA_TERMOLO = nsr(loc("pipa_tremolo")).registerGrid(),
+
+        VIOLIN_PIZZICATO = nsr(loc("violin_pizzicato")).stereo().registerGrid()
     ;
 
     // Metadata stuff
@@ -91,7 +93,17 @@ public class GISounds {
                 .releaseFadeOut(WINDSONG_FADE_TIME / 10)
                 .fullHoldFadeoutTime(2)
                 .decays(7)
-                .register(WINDSONG_HOLD_DURATION)
+                .register(WINDSONG_HOLD_DURATION),
+
+        VIOLIN_FAST = hnsr(loc("violin_fast"))
+                .holdBuilder(GISounds::violinSoundBuilder)
+                    .attackBuilder(GISounds::violinSoundBuilder)
+                    .holdDelay(.03f)
+                    .chainedHoldDelay(-WINDSONG_FADE_TIME * 2)
+                    .releaseFadeOut(WINDSONG_FADE_TIME / 10)
+                    .fullHoldFadeoutTime(2)
+                    .decays(7)
+                    .register(WINDSONG_HOLD_DURATION)
     ;
 
 

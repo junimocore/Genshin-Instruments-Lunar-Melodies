@@ -5,7 +5,7 @@ import com.stump.genshinstrument_lm.client.gui.instrument.pipa.PipaScreen;
 import com.stump.genshinstrument_lm.sound.GISounds;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.InstrumentThemeLoader;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.grid.GridInstrumentScreen;
-import com.stump.genshinstrument_lm.sound.NoteSound;
+import com.stump.genshinstrument_lm.sound.SoundOption;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -15,8 +15,8 @@ public class ShamisenScreen extends GridInstrumentScreen {
     public static final ResourceLocation INSTRUMENT_ID = new ResourceLocation(GInstrumentMod.MODID, "shamisen");
 
     @Override
-    public NoteSound[] getInitSounds() {
-        return GISounds.SHAMISEN;
+    public SoundOption getSoundOption() {
+        return new SoundOption(GISounds.SHAMISEN);
     }
 
     @Override

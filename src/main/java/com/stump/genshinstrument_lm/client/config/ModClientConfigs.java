@@ -1,10 +1,7 @@
 package com.stump.genshinstrument_lm.client.config;
 
 import com.stump.genshinstrument_lm.GInstrumentMod;
-import com.stump.genshinstrument_lm.client.config.enumType.InstrumentChannelType;
-import com.stump.genshinstrument_lm.client.config.enumType.NoteGridLabel;
-import com.stump.genshinstrument_lm.client.config.enumType.ZitherSoundType;
-import com.stump.genshinstrument_lm.client.config.enumType.KeyboardSoundType;
+import com.stump.genshinstrument_lm.client.config.enumType.*;
 import com.stump.genshinstrument_lm.client.gui.instrument.djemdjemdrum.DjemDjemDrumNoteLabel;
 import com.stump.genshinstrument_lm.client.gui.instrument.gloriousdrum.DominantGloriousDrumType;
 import com.stump.genshinstrument_lm.client.gui.instrument.gloriousdrum.GloriousDrumNoteLabel;
@@ -22,8 +19,6 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.fml.config.ModConfig.Type;
 import net.minecraftforge.fml.event.lifecycle.FMLConstructModEvent;
-
-import com.stump.genshinstrument_lm.client.gui.instrument.pipa.PipaSoundType;
 
 @OnlyIn(Dist.CLIENT)
 @EventBusSubscriber(bus = Bus.MOD, modid = GInstrumentMod.MODID, value = Dist.CLIENT)
@@ -53,6 +48,7 @@ public class ModClientConfigs {
 
     public static final EnumValue<PipaSoundType> PIPA_SOUND_TYPE;
     public static final EnumValue<KeyboardSoundType> KEYBOARD_SOUND_TYPE;
+    public static final EnumValue<ViolinSoundType> VIOLIN_SOUND_TYPE;
 
     static {
         final ForgeConfigSpec.Builder configBuilder = new Builder();
@@ -85,9 +81,11 @@ public class ModClientConfigs {
 
 
         ZITHER_SOUND_TYPE = configBuilder.defineEnum("zither_sound_type", ZitherSoundType.NEW);
-        KEYBOARD_SOUND_TYPE = configBuilder.defineEnum("keyboard_sound_type", KeyboardSoundType.EMI);
         GLORIOUS_DRUM_LABEL_TYPE = configBuilder.defineEnum("glorious_drum_label_type", GloriousDrumNoteLabel.KEYBOARD_LAYOUT);
         DJEM_DJEM_DRUM_LABEL_TYPE = configBuilder.defineEnum("djem_djem_drum_label_type", DjemDjemDrumNoteLabel.KEYBOARD_LAYOUT);
+        KEYBOARD_SOUND_TYPE = configBuilder.defineEnum("keyboard_sound_type", KeyboardSoundType.EMI);
+        VIOLIN_SOUND_TYPE = configBuilder.defineEnum("violin_sound_type", ViolinSoundType.SLOW);
+        PIPA_SOUND_TYPE = configBuilder.defineEnum("pipa_sound_type", PipaSoundType.REGULAR);
 
 
         MIDI_ENABLED = configBuilder.define("midi_enabled", false);
@@ -115,8 +113,6 @@ public class ModClientConfigs {
         ).defineEnum("dominant_drum_type", DominantGloriousDrumType.BOTH);
 
         UKULELE_3RD_OCTAVE_TYPE = configBuilder.defineEnum("ukulele_3rd_octave_type", Ukulele3rdOctaveType.CHORDS);
-
-        PIPA_SOUND_TYPE = configBuilder.defineEnum("pipa_sound_type", PipaSoundType.REGULAR);
 
         CONFIGS = configBuilder.build();
     }

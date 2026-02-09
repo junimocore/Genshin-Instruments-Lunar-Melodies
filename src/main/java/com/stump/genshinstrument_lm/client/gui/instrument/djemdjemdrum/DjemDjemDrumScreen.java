@@ -35,7 +35,7 @@ public class DjemDjemDrumScreen extends InstrumentScreen {
      */
     private final HashMap<Key, NoteButton> notes = new HashMap<>();
     @Override
-    public Map<Key, NoteButton> noteMap() {
+    public Map<Key, NoteButton> getNoteMap() {
         return notes;
     }
 

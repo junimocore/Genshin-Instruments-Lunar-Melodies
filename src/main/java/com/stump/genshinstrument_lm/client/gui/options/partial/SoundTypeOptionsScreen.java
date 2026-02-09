@@ -40,9 +40,8 @@ public abstract class SoundTypeOptionsScreen<T extends SoundType> extends Single
     public void setPreferredSoundType(T preferredSoundType) {
         this.preferredSoundType = preferredSoundType;
 
-        // Update the sound for this instrument
         if (instrumentScreen.map(this::isValidForSet).orElse(false))
-            instrumentScreen.get().setNoteSounds(preferredSoundType.getSoundArr().get());
+            instrumentScreen.get().setSoundOption(preferredSoundType.getSoundArr().get());
     }
 
     protected abstract T getInitSoundType();

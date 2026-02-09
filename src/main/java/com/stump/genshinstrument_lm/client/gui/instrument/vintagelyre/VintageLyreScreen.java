@@ -13,6 +13,7 @@ import com.stump.genshinstrument_lm.client.midi.MidiOverflowResult.OverflowType;
 import com.stump.genshinstrument_lm.client.midi.PressedMIDINote;
 import com.stump.genshinstrument_lm.sound.GISounds;
 import com.stump.genshinstrument_lm.sound.NoteSound;
+import com.stump.genshinstrument_lm.sound.SoundOption;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -34,8 +35,8 @@ public class VintageLyreScreen extends GridInstrumentScreen {
 
 
     @Override
-    public NoteSound[] getInitSounds() {
-        return GISounds.VINTAGE_LYRE_NOTE_SOUNDS;
+    public SoundOption getSoundOption() {
+        return new SoundOption(GISounds.VINTAGE_LYRE_NOTE_SOUNDS);
     }
 
     @Override
@@ -59,7 +60,7 @@ public class VintageLyreScreen extends GridInstrumentScreen {
 
 
     @Override
-    public VintageNoteButton createNote(int row, int column) {
+    public VintageNoteButton createNoteButton(int row, int column) {
         return new VintageNoteButton(row, column, this);
     }
 

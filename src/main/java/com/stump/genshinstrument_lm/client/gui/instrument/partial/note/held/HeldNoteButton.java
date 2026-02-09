@@ -1,6 +1,5 @@
 package com.stump.genshinstrument_lm.client.gui.instrument.partial.note.held;
 
-import com.stump.genshinstrument_lm.GInstrumentMod;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.InstrumentScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.NoteButton;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.label.NoteLabelSupplier;
@@ -31,7 +30,7 @@ public abstract class HeldNoteButton extends NoteButton implements IHoldableNote
 
     @Override
     public void setSound(NoteSound sound) {
-        GInstrumentMod.LOGGER.warn("Attempted to set the sound of a held note button; ignoring");
+        super.setSound(sound);
     }
 
 

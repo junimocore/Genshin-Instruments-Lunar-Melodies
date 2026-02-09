@@ -4,7 +4,7 @@ import com.stump.genshinstrument_lm.GInstrumentMod;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.InstrumentThemeLoader;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.grid.GridInstrumentScreen;
 import com.stump.genshinstrument_lm.sound.GISounds;
-import com.stump.genshinstrument_lm.sound.NoteSound;
+import com.stump.genshinstrument_lm.sound.SoundOption;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -17,11 +17,11 @@ public class WindsongLyreScreen extends GridInstrumentScreen {
     public ResourceLocation getInstrumentId() {
         return INSTRUMENT_ID;
     }
-    
+
 
     @Override
-    public NoteSound[] getInitSounds() {
-        return GISounds.WINDSONG_LYRE_NOTE_SOUNDS;
+    public SoundOption getSoundOption() {
+        return new SoundOption(GISounds.WINDSONG_LYRE_NOTE_SOUNDS);
     }
 
 

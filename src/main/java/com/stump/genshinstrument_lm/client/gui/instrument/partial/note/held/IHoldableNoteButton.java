@@ -89,7 +89,10 @@ public interface IHoldableNoteButton {
         playAttackAnimation(false);
 
         final InstrumentScreen screen = asNoteBtn().instrumentScreen;
-        toHeldSound(sound).startPlaying(pitch, screen.volume(), screen.getInstrumentId());
+
+        HeldNoteSound held = toHeldSound(sound);
+        if (held != null)
+            held.startPlaying(pitch, screen.volume(), screen.getInstrumentId());
     }
 
     default void sendNoteHeldPacket(HeldNoteSound sound, int pitch, HeldSoundPhase phase) {
@@ -109,11 +112,14 @@ public interface IHoldableNoteButton {
      * of the provided held sound array.
      */
     default HeldNoteSound toHeldSound(NoteSound noteSound) {
-        // Requested notes sound SHOULD be in heldNoteSounds array
-        // as a form of attack phase sounds.
-        return Arrays.stream(heldInstrumentScreen().getHeldNoteSounds())
-            .filter((heldSound) -> heldSound.attack().equals(noteSound))
-            .findFirst().orElseThrow();
+        HeldNoteSound[] sounds = heldInstrumentScreen().getHeldNoteSounds();
+        if (sounds == null)
+            return null;
+        for (HeldNoteSound held : sounds) {
+            if (held != null && noteSound.equals(held.attack()))
+                return held;
+        }
+        return null;
     }
 
 

@@ -9,6 +9,7 @@ import com.stump.genshinstrument_lm.client.gui.instrument.partial.grid.GridInstr
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.grid.NoteGridButton;
 import com.stump.genshinstrument_lm.client.midi.InstrumentMidiReceiver;
 import com.stump.genshinstrument_lm.sound.NoteSound;
+import com.stump.genshinstrument_lm.sound.SoundOption;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraftforge.api.distmarker.Dist;
@@ -20,13 +21,19 @@ public class NoteBlockInstrumentScreen extends GridInstrumentScreen {
 
     public final NoteBlockInstrument instrumentType;
     public final ResourceLocation instrumentId;
+    private final SoundOption soundOption;
     
     public NoteBlockInstrumentScreen(final NoteBlockInstrument instrumentType) {
         this.instrumentType = instrumentType;
         instrumentId = new ResourceLocation(GInstrumentMod.MODID, NoteBlockInstrumentItem.getId(instrumentType));
 
         // Update the sound to match the note block's
-        noteGrid.setNoteSounds(GISounds.getNoteblockSounds(instrumentType));
+        this.soundOption = new SoundOption(GISounds.getNoteblockSounds(instrumentType));
+    }
+
+    @Override
+    public SoundOption getSoundOption() {
+        return soundOption;
     }
 
     @Override
@@ -44,7 +51,7 @@ public class NoteBlockInstrumentScreen extends GridInstrumentScreen {
         return (int)(super.getNoteSize() * .85f);
     }
     @Override
-    public NoteGridButton createNote(int row, int column, int pitch) {
+    public NoteGridButton createNoteButton(int row, int column, int pitch) {
         return new NoteBlockInstrumentNote(row, column, this, pitch);
     }
 
@@ -57,7 +64,7 @@ public class NoteBlockInstrumentScreen extends GridInstrumentScreen {
 
     @Override
     public NoteSound[] getInitSounds() {
-        return GISounds.getNoteblockSounds(NoteBlockInstrument.HARP);
+        return getSoundOption().getNoteSounds();
     }
 
     @Override

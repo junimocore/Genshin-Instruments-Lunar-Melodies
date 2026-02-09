@@ -1551,6 +1551,516 @@
     "violin_slow_attack_note_20_stereo": {
         "category": "record",
         "sounds": ["genshinstrument_lm:violin_slow/attack/20.stereo"]
+    }, 
+    
+    "violin_fast_hold_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/0"]
+    },
+    "violin_fast_hold_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/1"]
+    },
+    "violin_fast_hold_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/2"]
+    },
+    "violin_fast_hold_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/3"]
+    },
+    "violin_fast_hold_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/4"]
+    },
+    "violin_fast_hold_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/5"]
+    },
+    "violin_fast_hold_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/6"]
+    },
+    "violin_fast_hold_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/7"]
+    },
+    "violin_fast_hold_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/8"]
+    },
+    "violin_fast_hold_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/9"]
+    },
+    "violin_fast_hold_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/10"]
+    },
+    "violin_fast_hold_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/11"]
+    },
+    "violin_fast_hold_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/12"]
+    },
+    "violin_fast_hold_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/13"]
+    },
+    "violin_fast_hold_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/14"]
+    },
+    "violin_fast_hold_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/15"]
+    },
+    "violin_fast_hold_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/16"]
+    },
+    "violin_fast_hold_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/17"]
+    },
+    "violin_fast_hold_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/18"]
+    },
+    "violin_fast_hold_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/19"]
+    },
+    "violin_fast_hold_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/20"]
+    },
+
+    "violin_fast_hold_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/0.stereo"]
+    },
+    "violin_fast_hold_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/1.stereo"]
+    },
+    "violin_fast_hold_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/2.stereo"]
+    },
+    "violin_fast_hold_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/3.stereo"]
+    },
+    "violin_fast_hold_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/4.stereo"]
+    },
+    "violin_fast_hold_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/5.stereo"]
+    },
+    "violin_fast_hold_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/6.stereo"]
+    },
+    "violin_fast_hold_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/7.stereo"]
+    },
+    "violin_fast_hold_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/8.stereo"]
+    },
+    "violin_fast_hold_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/9.stereo"]
+    },
+    "violin_fast_hold_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/10.stereo"]
+    },
+    "violin_fast_hold_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/11.stereo"]
+    },
+    "violin_fast_hold_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/12.stereo"]
+    },
+    "violin_fast_hold_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/13.stereo"]
+    },
+    "violin_fast_hold_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/14.stereo"]
+    },
+    "violin_fast_hold_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/15.stereo"]
+    },
+    "violin_fast_hold_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/16.stereo"]
+    },
+    "violin_fast_hold_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/17.stereo"]
+    },
+    "violin_fast_hold_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/18.stereo"]
+    },
+    "violin_fast_hold_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/19.stereo"]
+    },
+    "violin_fast_hold_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/hold/20.stereo"]
+    },
+
+    "violin_fast_attack_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/0"]
+    },
+    "violin_fast_attack_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/1"]
+    },
+    "violin_fast_attack_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/2"]
+    },
+    "violin_fast_attack_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/3"]
+    },
+    "violin_fast_attack_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/4"]
+    },
+    "violin_fast_attack_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/5"]
+    },
+    "violin_fast_attack_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/6"]
+    },
+    "violin_fast_attack_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/7"]
+    },
+    "violin_fast_attack_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/8"]
+    },
+    "violin_fast_attack_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/9"]
+    },
+    "violin_fast_attack_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/10"]
+    },
+    "violin_fast_attack_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/11"]
+    },
+    "violin_fast_attack_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/12"]
+    },
+    "violin_fast_attack_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/13"]
+    },
+    "violin_fast_attack_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/14"]
+    },
+    "violin_fast_attack_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/15"]
+    },
+    "violin_fast_attack_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/16"]
+    },
+    "violin_fast_attack_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/17"]
+    },
+    "violin_fast_attack_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/18"]
+    },
+    "violin_fast_attack_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/19"]
+    },
+    "violin_fast_attack_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/20"]
+    },
+
+    "violin_fast_attack_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/0.stereo"]
+    },
+    "violin_fast_attack_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/1.stereo"]
+    },
+    "violin_fast_attack_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/2.stereo"]
+    },
+    "violin_fast_attack_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/3.stereo"]
+    },
+    "violin_fast_attack_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/4.stereo"]
+    },
+    "violin_fast_attack_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/5.stereo"]
+    },
+    "violin_fast_attack_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/6.stereo"]
+    },
+    "violin_fast_attack_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/7.stereo"]
+    },
+    "violin_fast_attack_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/8.stereo"]
+    },
+    "violin_fast_attack_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/9.stereo"]
+    },
+    "violin_fast_attack_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/10.stereo"]
+    },
+    "violin_fast_attack_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/11.stereo"]
+    },
+    "violin_fast_attack_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/12.stereo"]
+    },
+    "violin_fast_attack_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/13.stereo"]
+    },
+    "violin_fast_attack_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/14.stereo"]
+    },
+    "violin_fast_attack_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/15.stereo"]
+    },
+    "violin_fast_attack_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/16.stereo"]
+    },
+    "violin_fast_attack_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/17.stereo"]
+    },
+    "violin_fast_attack_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/18.stereo"]
+    },
+    "violin_fast_attack_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/19.stereo"]
+    },
+    "violin_fast_attack_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_fast/attack/20.stereo"]
+    },
+
+    "violin_pizzicato_note_0": {
+        "catrgory": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/0"]
+    },
+    "violin_pizzicato_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/1"]
+    },
+    "violin_pizzicato_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/2"]
+    },
+    "violin_pizzicato_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/3"]
+    },
+    "violin_pizzicato_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/4"]
+    },
+    "violin_pizzicato_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/5"]
+    },
+    "violin_pizzicato_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/6"]
+    },
+    "violin_pizzicato_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/7"]
+    },
+    "violin_pizzicato_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/8"]
+    },
+    "violin_pizzicato_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/9"]
+    },
+    "violin_pizzicato_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/10"]
+    },
+    "violin_pizzicato_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/11"]
+    },
+    "violin_pizzicato_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/12"]
+    },
+    "violin_pizzicato_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/13"]
+    },
+    "violin_pizzicato_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/14"]
+    },
+    "violin_pizzicato_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/15"]
+    },
+    "violin_pizzicato_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/16"]
+    },
+    "violin_pizzicato_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/17"]
+    },
+    "violin_pizzicato_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/18"]
+    },
+    "violin_pizzicato_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/19"]
+    },
+    "violin_pizzicato_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/20"]
+    },
+
+    "violin_pizzicato_note_0_stereo": {
+        "catrgory": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/0.stereo"]
+    },
+    "violin_pizzicato_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/1.stereo"]
+    },
+    "violin_pizzicato_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/2.stereo"]
+    },
+    "violin_pizzicato_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/3.stereo"]
+    },
+    "violin_pizzicato_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/4.stereo"]
+    },
+    "violin_pizzicato_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/5.stereo"]
+    },
+    "violin_pizzicato_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/6.stereo"]
+    },
+    "violin_pizzicato_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/7.stereo"]
+    },
+    "violin_pizzicato_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/8.stereo"]
+    },
+    "violin_pizzicato_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/9.stereo"]
+    },
+    "violin_pizzicato_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/10.stereo"]
+    },
+    "violin_pizzicato_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/11.stereo"]
+    },
+    "violin_pizzicato_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/12.stereo"]
+    },
+    "violin_pizzicato_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/13.stereo"]
+    },
+    "violin_pizzicato_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/14.stereo"]
+    },
+    "violin_pizzicato_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/15.stereo"]
+    },
+    "violin_pizzicato_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/16.stereo"]
+    },
+    "violin_pizzicato_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/17.stereo"]
+    },
+    "violin_pizzicato_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/18.stereo"]
+    },
+    "violin_pizzicato_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/19.stereo"]
+    },
+    "violin_pizzicato_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:violin_pizzicato/20.stereo"]
     },
 
     "trombone_note_0": {

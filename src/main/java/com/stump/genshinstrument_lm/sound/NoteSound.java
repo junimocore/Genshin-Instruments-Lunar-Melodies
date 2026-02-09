@@ -187,24 +187,26 @@ public class NoteSound {
         final Minecraft minecraft = Minecraft.getInstance();
         final SoundEvent sound = getByPreference(playDistSqr);
 
+        if (sound == null)
+            return; // silently skip if still loading or missing
+
         if (playDistSqr > Mth.square(LOCAL_RANGE)) {
             minecraft.level.playLocalSound(
-                pos, sound,
-                INSTRUMENT_SOUND_SOURCE,
-                volume, pitch,
-                false
+                    pos, sound,
+                    INSTRUMENT_SOUND_SOURCE,
+                    volume, pitch,
+                    false
             );
         } else {
-            Minecraft.getInstance().getSoundManager().play(new SimpleSoundInstance(
-                sound.getLocation(),
-                INSTRUMENT_SOUND_SOURCE,
-                volume, pitch,
-                SoundInstance.createUnseededRandom(),
-                false, 0,
-
-                Attenuation.NONE,
-                0, 0, 0,
-                true
+            minecraft.getSoundManager().play(new SimpleSoundInstance(
+                    sound.getLocation(),
+                    INSTRUMENT_SOUND_SOURCE,
+                    volume, pitch,
+                    SoundInstance.createUnseededRandom(),
+                    false, 0,
+                    Attenuation.NONE,
+                    0, 0, 0,
+                    true
             ));
         }
     }

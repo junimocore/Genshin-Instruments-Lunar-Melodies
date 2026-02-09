@@ -8,8 +8,8 @@ import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.grid.Note
 import com.stump.genshinstrument_lm.client.gui.options.partial.InstrumentOptionsScreen;
 import com.stump.genshinstrument_lm.client.midi.InstrumentMidiReceiver;
 import com.stump.genshinstrument_lm.sound.GISounds;
-import com.stump.genshinstrument_lm.sound.NoteSound;
 import com.mojang.blaze3d.systems.RenderSystem;
+import com.stump.genshinstrument_lm.sound.SoundOption;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
@@ -37,8 +37,8 @@ public class UkuleleScreen extends GridInstrumentScreen {
     }
 
     @Override
-    public NoteSound[] getInitSounds() {
-        return GISounds.UKULELE;
+    public SoundOption getSoundOption() {
+        return new SoundOption(GISounds.UKULELE);
     }
 
 
@@ -54,7 +54,7 @@ public class UkuleleScreen extends GridInstrumentScreen {
 
 
     @Override
-    public NoteGridButton createNote(int row, int column) {
+    public NoteGridButton createNoteButton(int row, int column) {
         return new UkuleleNoteButton(row, column, this);
     }
 
@@ -84,9 +84,9 @@ public class UkuleleScreen extends GridInstrumentScreen {
         }
 
         switch (index) {
-            case 0: renderClefChord(gui, index, x); break;
-            case 1: super.renderClef(gui, index, x, "treble"); break;
-            case 2: super.renderClef(gui, index, x, "alto"); break;
+            case 0 -> renderClefChord(gui, index, x);
+            case 1 -> super.renderClef(gui, index, x, "treble");
+            case 2 -> super.renderClef(gui, index, x, "alto");
         }
     }
 

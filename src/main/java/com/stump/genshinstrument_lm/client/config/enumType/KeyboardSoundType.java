@@ -2,6 +2,7 @@ package com.stump.genshinstrument_lm.client.config.enumType;
 
 import com.stump.genshinstrument_lm.sound.GISounds;
 import com.stump.genshinstrument_lm.sound.NoteSound;
+import com.stump.genshinstrument_lm.sound.SoundOption;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
@@ -9,17 +10,17 @@ import java.util.function.Supplier;
 
 @OnlyIn(Dist.CLIENT)
 public enum KeyboardSoundType implements SoundType {
-    EMI(() -> GISounds.KEYBOARD),
-    GW2(() -> GISounds.KEYBOARD_GW2),
-    YAMAHA_C5(() -> GISounds.KEYBOARD_YAMAHA_C5);
+    EMI(() -> new SoundOption(GISounds.KEYBOARD)),
+    GW2(() -> new SoundOption(GISounds.KEYBOARD_GW2)),
+    YAMAHA_C5(() -> new SoundOption(GISounds.KEYBOARD_YAMAHA_C5));
 
-    private Supplier<NoteSound[]> soundArr;
-    private KeyboardSoundType(final Supplier<NoteSound[]> soundType) {
+    private final Supplier<SoundOption> soundArr;
+    private KeyboardSoundType(final Supplier<SoundOption> soundType) {
         this.soundArr = soundType;
     }
 
     @Override
-    public Supplier<NoteSound[]> getSoundArr() {
+    public Supplier<SoundOption> getSoundArr() {
         return soundArr;
     }
 }

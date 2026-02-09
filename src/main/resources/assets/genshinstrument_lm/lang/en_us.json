@@ -24,6 +24,7 @@
     "label.genshinstrument_lm.vintage_lyre_options": "Vintage Lyre Options",
     "label.genshinstrument_lm.ukulele_options": "Ukulele Options",
     "label.genshinstrument_lm.keyboard_options": "Keyboard Options",
+    "label.genshinstrument_lm.violin_options": "Violin Options",
 
     "genshinstrument_lm.genshin_disclaimer.title": "Disclaimer!",
     "genshinstrument_lm.genshin_disclaimer.content": "Genshin Instruments is an %s and %s Minecraft mod that is in no way affiliated with neither Genshin Impact nor HoYoverse.\n\nThus, all Genshin-related assets used in-game, such as sounds, images, instruments etc. are of complete ownership to HoYoverse.\n\nAs the user, you have the full responsibility over your actions within the game, including (but not limited to!) playing and sharing/publishing any songs that may be protected under copyright laws.",
@@ -97,9 +98,14 @@
     "button.genshinstrument_lm.zither.soundType.new": "New",
 
     "button.genshinstrument_lm.keyboard.soundType": "Sound Type",
-    "button.genshinstrument_lm.keyboard.soundType.emi": "Evenmoreinstruments",
+    "button.genshinstrument_lm.keyboard.soundType.emi": "Even More Instruments",
     "button.genshinstrument_lm.keyboard.soundType.gw2": "Guild Wars 2",
     "button.genshinstrument_lm.keyboard.soundType.yamaha_c5": "Yamaha_C5",
+
+    "button.genshinstrument_lm.violin.soundType": "Sound Type",
+    "button.genshinstrument_lm.violin.soundType.slow": "Slow",
+    "button.genshinstrument_lm.violin.soundType.fast": "Fast",
+    "button.genshinstrument_lm.violin.soundType.pizz": "Pizzicato",
 
     "button.genshinstrument_lm.label.do_re_mi": "do re mi",
     "button.genshinstrument_lm.label.do_re_mi.description": "Labels will be of the musical notation \"do re mi.\"",

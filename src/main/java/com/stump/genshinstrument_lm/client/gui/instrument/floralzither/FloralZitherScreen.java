@@ -4,7 +4,7 @@ import com.stump.genshinstrument_lm.GInstrumentMod;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.InstrumentThemeLoader;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.grid.GridInstrumentScreen;
 import com.stump.genshinstrument_lm.client.gui.options.partial.InstrumentOptionsScreen;
-import com.stump.genshinstrument_lm.sound.NoteSound;
+import com.stump.genshinstrument_lm.sound.SoundOption;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -18,10 +18,12 @@ public class FloralZitherScreen extends GridInstrumentScreen {
         return INSTRUMENT_ID;
     }
 
-    
     @Override
-    public NoteSound[] getInitSounds() {
-        return ((FloralZitherOptionsScreen)optionsScreen).getPreferredSoundType().getSoundArr().get();
+    public SoundOption getSoundOption() {
+        return ((FloralZitherOptionsScreen) optionsScreen)
+                .getPreferredSoundType()
+                .getSoundArr()
+                .get();
     }
 
     @Override
