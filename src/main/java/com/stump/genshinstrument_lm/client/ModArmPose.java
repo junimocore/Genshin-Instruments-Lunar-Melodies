@@ -68,4 +68,17 @@ public abstract class ModArmPose {
         }
     );
 
+    public static final ArmPose PLAYING_MICROPHONE = ArmPose.create("playing_microphone", false,
+            (model, entity, arm) -> {
+                if (arm == HumanoidArm.RIGHT) {
+                    model.rightArm.xRot = -1.5f;
+                    model.rightArm.zRot = -0.35f;
+                    model.rightArm.yRot = -0.5f;
+                } else {
+                    model.leftArm.xRot = -1.5f;
+                    model.leftArm.zRot = 0.35f;
+                    model.leftArm.yRot = 0.5f;
+                }
+            }
+    );
 }

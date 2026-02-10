@@ -16,6 +16,7 @@
         "genshinstrument_lm:pipa",
         "genshinstrument_lm:shamisen",
         "genshinstrument_lm:koto",
+        "genshinstrument_lm:microphone",
 
         "genshinstrument_lm:banjo_note_block_instrument",
         "genshinstrument_lm:basedrum_note_block_instrument",

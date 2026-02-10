@@ -58,17 +58,16 @@ public class GISounds {
 
         VIOLIN_PIZZICATO = nsr(loc("violin_pizzicato")).stereo().registerGrid()
     ;
-
-    // Metadata stuff
+    
     private static final float
-        WINDSONG_HOLD_DURATION = 3f,
-        WINDSONG_FADE_TIME = .25f
+        HOLD_DURATION = 3f,
+        FADE_TIME = .25f
     ;
 
     public static final HeldNoteSound[]
         NIGHTWIND_HORN = hnsr(loc("nightwind_horn"))
-            .holdBuilder(GISounds::nightwindSoundBuilder)
-            .attackBuilder(GISounds::nightwindSoundBuilder)
+            .holdBuilder(GISounds::twoOctaveSoundBuilder)
+            .attackBuilder(GISounds::twoOctaveSoundBuilder)
 
             // Test for release sound:
 //            .releaseBuilder((builder) -> builder
@@ -79,39 +78,66 @@ public class GISounds {
 //            )
 
             .holdDelay(.03f)
-            .chainedHoldDelay(-WINDSONG_FADE_TIME * 2)
-            .releaseFadeOut(WINDSONG_FADE_TIME / 10)
+            .chainedHoldDelay(-FADE_TIME * 2)
+            .releaseFadeOut(FADE_TIME / 10)
             .fullHoldFadeoutTime(2)
             .decays(7)
-        .register(WINDSONG_HOLD_DURATION),
+        .register(HOLD_DURATION),
 
         VIOLIN_SLOW = hnsr(loc("violin_slow"))
-                .holdBuilder(GISounds::violinSoundBuilder)
-                .attackBuilder(GISounds::violinSoundBuilder)
+                .holdBuilder(GISounds::threeOctaveSoundBuilder)
+                .attackBuilder(GISounds::threeOctaveSoundBuilder)
                 .holdDelay(.03f)
-                .chainedHoldDelay(-WINDSONG_FADE_TIME * 2)
-                .releaseFadeOut(WINDSONG_FADE_TIME / 10)
+                .chainedHoldDelay(-FADE_TIME * 2)
+                .releaseFadeOut(FADE_TIME / 10)
                 .fullHoldFadeoutTime(2)
                 .decays(7)
-                .register(WINDSONG_HOLD_DURATION),
-
+                .register(HOLD_DURATION),
         VIOLIN_FAST = hnsr(loc("violin_fast"))
-                .holdBuilder(GISounds::violinSoundBuilder)
-                    .attackBuilder(GISounds::violinSoundBuilder)
+                .holdBuilder(GISounds::threeOctaveSoundBuilder)
+                    .attackBuilder(GISounds::threeOctaveSoundBuilder)
                     .holdDelay(.03f)
-                    .chainedHoldDelay(-WINDSONG_FADE_TIME * 2)
-                    .releaseFadeOut(WINDSONG_FADE_TIME / 10)
+                    .chainedHoldDelay(-FADE_TIME * 2)
+                    .releaseFadeOut(FADE_TIME / 10)
                     .fullHoldFadeoutTime(2)
                     .decays(7)
-                    .register(WINDSONG_HOLD_DURATION)
+                    .register(HOLD_DURATION),
+
+        IRINA_BROCHIN = hnsr(loc("microphone_irina_brochin"))
+                .holdBuilder(GISounds::threeOctaveSoundBuilder)
+                        .attackBuilder(GISounds::threeOctaveSoundBuilder)
+                        .holdDelay(.03f)
+                        .chainedHoldDelay(-FADE_TIME * 2)
+                        .releaseFadeOut(FADE_TIME / 7)
+                        .fullHoldFadeoutTime(2)
+                        .decays(7)
+                        .register(HOLD_DURATION),
+        BASS_CHOIR = hnsr(loc("microphone_bass_choir"))
+                .holdBuilder(GISounds::threeOctaveSoundBuilder)
+                            .attackBuilder(GISounds::threeOctaveSoundBuilder)
+                            .holdDelay(.03f)
+                            .chainedHoldDelay(-FADE_TIME * 2)
+                            .releaseFadeOut(FADE_TIME / 8)
+                            .fullHoldFadeoutTime(2)
+                            .decays(7)
+                            .register(HOLD_DURATION),
+        NOT_MIKU = hnsr(loc("microphone_not_miku"))
+                .holdBuilder(GISounds::threeOctaveSoundBuilder)
+                            .attackBuilder(GISounds::threeOctaveSoundBuilder)
+                            .holdDelay(.03f)
+                            .chainedHoldDelay(-FADE_TIME * 2)
+                            .releaseFadeOut(FADE_TIME / 5)
+                            .fullHoldFadeoutTime(2)
+                            .decays(7)
+                            .register(HOLD_DURATION)
     ;
 
 
-    private static NoteSound[] nightwindSoundBuilder(final NoteSoundRegistrar builder) {
+    private static NoteSound[] twoOctaveSoundBuilder(final NoteSoundRegistrar builder) {
         return builder.stereo().registerGrid(GridInstrumentScreen.DEF_ROWS, 2);
     }
 
-    private static NoteSound[] violinSoundBuilder(final NoteSoundRegistrar builder) {
+    private static NoteSound[] threeOctaveSoundBuilder(final NoteSoundRegistrar builder) {
         return builder.stereo().registerGrid(GridInstrumentScreen.DEF_ROWS, 3);
     }
 

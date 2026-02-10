@@ -25,6 +25,7 @@
     "label.genshinstrument_lm.ukulele_options": "Ukulele Options",
     "label.genshinstrument_lm.keyboard_options": "Keyboard Options",
     "label.genshinstrument_lm.violin_options": "Violin Options",
+    "label.genshinstrument_lm.microphone_options": "Microphone Options",
 
     "genshinstrument_lm.genshin_disclaimer.title": "Disclaimer!",
     "genshinstrument_lm.genshin_disclaimer.content": "Genshin Instruments is an %s and %s Minecraft mod that is in no way affiliated with neither Genshin Impact nor HoYoverse.\n\nThus, all Genshin-related assets used in-game, such as sounds, images, instruments etc. are of complete ownership to HoYoverse.\n\nAs the user, you have the full responsibility over your actions within the game, including (but not limited to!) playing and sharing/publishing any songs that may be protected under copyright laws.",
@@ -106,6 +107,11 @@
     "button.genshinstrument_lm.violin.soundType.slow": "Slow",
     "button.genshinstrument_lm.violin.soundType.fast": "Fast",
     "button.genshinstrument_lm.violin.soundType.pizz": "Pizzicato",
+
+    "button.genshinstrument_lm.microphone.soundType": "Sound Type",
+    "button.genshinstrument_lm.microphone.soundType.irina": "Irina Brochin",
+    "button.genshinstrument_lm.microphone.soundType.bass": "Bass Choir",
+    "button.genshinstrument_lm.microphone.soundType.miku": "Not Miku",
 
     "button.genshinstrument_lm.label.do_re_mi": "do re mi",
     "button.genshinstrument_lm.label.do_re_mi.description": "Labels will be of the musical notation \"do re mi.\"",
@@ -191,11 +197,12 @@
     "item.genshinstrument_lm.saxophone": "Saxophone",
     "item.genshinstrument_lm.pipa": "Pipa",
     "item.genshinstrument_lm.shamisen": "Shamisen",
+    "item.genshinstrument_lm.microphone": "Microphone",
     "item.genshinstrument_lm.note_block_instrument": "%s Note Block Instrument",
 
     "block.genshinstrument_lm.keyboard": "Keyboard",
     "block.genshinstrument_lm.koto": "Koto",
-
+    "block.genshinstrument_lm.microphone_stand": "Microphone Stand",
 
     "block.genshinstrument_lm.keyboard_stand": "Keyboard Stand",
     "item.genshinstrument_lm.violin_bow": "Violin Bow",

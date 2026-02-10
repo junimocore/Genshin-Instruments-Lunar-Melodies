@@ -24,17 +24,21 @@ public class ModBlocks {
     // );
 
     public static final RegistryObject<Block>
-            KEYBOARD = BLOCKS.register("keyboard", () -> new KeyboardBlock(
-            BlockBehaviour.Properties.of().noOcclusion().strength(.3f)
-    )),
-            KEYBOARD_STAND = BLOCKS.register("keyboard_stand", () -> new KeyboardStandBlock(
-                    BlockBehaviour.Properties.of().noOcclusion().strength(.3f)
-            )),
+        KEYBOARD = BLOCKS.register("keyboard", () -> new KeyboardBlock(
+        BlockBehaviour.Properties.of().noOcclusion().strength(.3f)
+        )),
+        KEYBOARD_STAND = BLOCKS.register("keyboard_stand", () -> new KeyboardStandBlock(
+                BlockBehaviour.Properties.of().noOcclusion().strength(.3f)
+        )),
 
-    KOTO = BLOCKS.register("koto", () -> new KotoBlock(
-            BlockBehaviour.Properties.of().noOcclusion().strength(.3f).sound(SoundType.WOOD)
-    )),
+        KOTO = BLOCKS.register("koto", () -> new KotoBlock(
+                BlockBehaviour.Properties.of().noOcclusion().strength(.3f).sound(SoundType.WOOD)
+        )),
 
-    LOOPER = BLOCKS.register("looper", () -> new LooperBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)))
-            ;
+        MICROPHONE_STAND = BLOCKS.register("microphone_stand", () -> new MicrophoneStandBlock(
+                BlockBehaviour.Properties.of().noOcclusion().strength(.3f).sound(SoundType.WOOD)
+        )),
+
+        LOOPER = BLOCKS.register("looper", () -> new LooperBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)))
+        ;
 }

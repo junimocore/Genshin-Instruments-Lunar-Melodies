@@ -149,6 +149,20 @@ public class ModItems {
             DEFAULT_INSTRUMENT_BLOCK_TABS
         ),
 
+        MICROPHONE_STAND = register("microphone_stand", () ->
+                        new MicrophoneStandBlockItem(
+                                ModBlocks.MICROPHONE_STAND.get(), new Properties().stacksTo(1),
+                                null
+                        ),
+                DEFAULT_INSTRUMENT_BLOCK_TABS
+        ),
+
+        MICROPHONE = register("microphone", () -> new MicrophoneInstrumentItem(
+                (player) -> InstrumentPacketUtil.sendOpenPacket(
+                        player, loc("microphone")
+                )
+        )),
+
         TROMBONE = register("trombone", () -> new CreditableWindInstrumentItem(
             (player) -> InstrumentPacketUtil.sendOpenPacket(
                 player, loc("trombone")

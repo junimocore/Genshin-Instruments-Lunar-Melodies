@@ -2745,5 +2745,1024 @@
     "koto_note_20": {
         "category": "record",
         "sounds": ["genshinstrument_lm:koto/20"]
+    },
+
+    "microphone_irina_brochin_hold_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/0"]
+    },
+    "microphone_irina_brochin_hold_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/1"]
+    },
+    "microphone_irina_brochin_hold_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/2"]
+    },
+    "microphone_irina_brochin_hold_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/3"]
+    },
+    "microphone_irina_brochin_hold_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/4"]
+    },
+    "microphone_irina_brochin_hold_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/5"]
+    },
+    "microphone_irina_brochin_hold_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/6"]
+    },
+    "microphone_irina_brochin_hold_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/7"]
+    },
+    "microphone_irina_brochin_hold_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/8"]
+    },
+    "microphone_irina_brochin_hold_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/9"]
+    },
+    "microphone_irina_brochin_hold_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/10"]
+    },
+    "microphone_irina_brochin_hold_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/11"]
+    },
+    "microphone_irina_brochin_hold_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/12"]
+    },
+    "microphone_irina_brochin_hold_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/13"]
+    },
+    "microphone_irina_brochin_hold_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/14"]
+    },
+    "microphone_irina_brochin_hold_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/15"]
+    },
+    "microphone_irina_brochin_hold_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/16"]
+    },
+    "microphone_irina_brochin_hold_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/17"]
+    },
+    "microphone_irina_brochin_hold_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/18"]
+    },
+    "microphone_irina_brochin_hold_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/19"]
+    },
+    "microphone_irina_brochin_hold_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/20"]
+    },
+
+    "microphone_irina_brochin_hold_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/0.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/1.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/2.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/3.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/4.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/5.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/6.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/7.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/8.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/9.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/10.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/11.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/12.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/13.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/14.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/15.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/16.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/17.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/18.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/19.stereo"]
+    },
+    "microphone_irina_brochin_hold_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/hold/20.stereo"]
+    },
+
+    "microphone_irina_brochin_attack_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/0"]
+    },
+    "microphone_irina_brochin_attack_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/1"]
+    },
+    "microphone_irina_brochin_attack_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/2"]
+    },
+    "microphone_irina_brochin_attack_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/3"]
+    },
+    "microphone_irina_brochin_attack_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/4"]
+    },
+    "microphone_irina_brochin_attack_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/5"]
+    },
+    "microphone_irina_brochin_attack_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/6"]
+    },
+    "microphone_irina_brochin_attack_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/7"]
+    },
+    "microphone_irina_brochin_attack_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/8"]
+    },
+    "microphone_irina_brochin_attack_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/9"]
+    },
+    "microphone_irina_brochin_attack_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/10"]
+    },
+    "microphone_irina_brochin_attack_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/11"]
+    },
+    "microphone_irina_brochin_attack_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/12"]
+    },
+    "microphone_irina_brochin_attack_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/13"]
+    },
+    "microphone_irina_brochin_attack_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/14"]
+    },
+    "microphone_irina_brochin_attack_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/15"]
+    },
+    "microphone_irina_brochin_attack_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/16"]
+    },
+    "microphone_irina_brochin_attack_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/17"]
+    },
+    "microphone_irina_brochin_attack_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/18"]
+    },
+    "microphone_irina_brochin_attack_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/19"]
+    },
+    "microphone_irina_brochin_attack_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/20"]
+    },
+
+    "microphone_irina_brochin_attack_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/0.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/1.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/2.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/3.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/4.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/5.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/6.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/7.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/8.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/9.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/10.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/11.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/12.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/13.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/14.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/15.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/16.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/17.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/18.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/19.stereo"]
+    },
+    "microphone_irina_brochin_attack_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_irina_brochin/attack/20.stereo"]
+    },
+    "microphone_bass_choir_hold_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/0"]
+    },
+    "microphone_bass_choir_hold_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/1"]
+    },
+    "microphone_bass_choir_hold_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/2"]
+    },
+    "microphone_bass_choir_hold_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/3"]
+    },
+    "microphone_bass_choir_hold_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/4"]
+    },
+    "microphone_bass_choir_hold_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/5"]
+    },
+    "microphone_bass_choir_hold_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/6"]
+    },
+    "microphone_bass_choir_hold_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/7"]
+    },
+    "microphone_bass_choir_hold_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/8"]
+    },
+    "microphone_bass_choir_hold_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/9"]
+    },
+    "microphone_bass_choir_hold_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/10"]
+    },
+    "microphone_bass_choir_hold_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/11"]
+    },
+    "microphone_bass_choir_hold_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/12"]
+    },
+    "microphone_bass_choir_hold_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/13"]
+    },
+    "microphone_bass_choir_hold_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/14"]
+    },
+    "microphone_bass_choir_hold_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/15"]
+    },
+    "microphone_bass_choir_hold_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/16"]
+    },
+    "microphone_bass_choir_hold_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/17"]
+    },
+    "microphone_bass_choir_hold_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/18"]
+    },
+    "microphone_bass_choir_hold_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/19"]
+    },
+    "microphone_bass_choir_hold_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/20"]
+    },
+
+    "microphone_bass_choir_hold_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/0.stereo"]
+    },
+    "microphone_bass_choir_hold_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/1.stereo"]
+    },
+    "microphone_bass_choir_hold_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/2.stereo"]
+    },
+    "microphone_bass_choir_hold_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/3.stereo"]
+    },
+    "microphone_bass_choir_hold_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/4.stereo"]
+    },
+    "microphone_bass_choir_hold_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/5.stereo"]
+    },
+    "microphone_bass_choir_hold_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/6.stereo"]
+    },
+    "microphone_bass_choir_hold_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/7.stereo"]
+    },
+    "microphone_bass_choir_hold_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/8.stereo"]
+    },
+    "microphone_bass_choir_hold_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/9.stereo"]
+    },
+    "microphone_bass_choir_hold_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/10.stereo"]
+    },
+    "microphone_bass_choir_hold_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/11.stereo"]
+    },
+    "microphone_bass_choir_hold_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/12.stereo"]
+    },
+    "microphone_bass_choir_hold_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/13.stereo"]
+    },
+    "microphone_bass_choir_hold_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/14.stereo"]
+    },
+    "microphone_bass_choir_hold_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/15.stereo"]
+    },
+    "microphone_bass_choir_hold_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/16.stereo"]
+    },
+    "microphone_bass_choir_hold_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/17.stereo"]
+    },
+    "microphone_bass_choir_hold_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/18.stereo"]
+    },
+    "microphone_bass_choir_hold_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/19.stereo"]
+    },
+    "microphone_bass_choir_hold_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/hold/20.stereo"]
+    },
+
+    "microphone_bass_choir_attack_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/0"]
+    },
+    "microphone_bass_choir_attack_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/1"]
+    },
+    "microphone_bass_choir_attack_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/2"]
+    },
+    "microphone_bass_choir_attack_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/3"]
+    },
+    "microphone_bass_choir_attack_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/4"]
+    },
+    "microphone_bass_choir_attack_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/5"]
+    },
+    "microphone_bass_choir_attack_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/6"]
+    },
+    "microphone_bass_choir_attack_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/7"]
+    },
+    "microphone_bass_choir_attack_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/8"]
+    },
+    "microphone_bass_choir_attack_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/9"]
+    },
+    "microphone_bass_choir_attack_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/10"]
+    },
+    "microphone_bass_choir_attack_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/11"]
+    },
+    "microphone_bass_choir_attack_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/12"]
+    },
+    "microphone_bass_choir_attack_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/13"]
+    },
+    "microphone_bass_choir_attack_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/14"]
+    },
+    "microphone_bass_choir_attack_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/15"]
+    },
+    "microphone_bass_choir_attack_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/16"]
+    },
+    "microphone_bass_choir_attack_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/17"]
+    },
+    "microphone_bass_choir_attack_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/18"]
+    },
+    "microphone_bass_choir_attack_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/19"]
+    },
+    "microphone_bass_choir_attack_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/20"]
+    },
+
+    "microphone_bass_choir_attack_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/0.stereo"]
+    },
+    "microphone_bass_choir_attack_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/1.stereo"]
+    },
+    "microphone_bass_choir_attack_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/2.stereo"]
+    },
+    "microphone_bass_choir_attack_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/3.stereo"]
+    },
+    "microphone_bass_choir_attack_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/4.stereo"]
+    },
+    "microphone_bass_choir_attack_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/5.stereo"]
+    },
+    "microphone_bass_choir_attack_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/6.stereo"]
+    },
+    "microphone_bass_choir_attack_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/7.stereo"]
+    },
+    "microphone_bass_choir_attack_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/8.stereo"]
+    },
+    "microphone_bass_choir_attack_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/9.stereo"]
+    },
+    "microphone_bass_choir_attack_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/10.stereo"]
+    },
+    "microphone_bass_choir_attack_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/11.stereo"]
+    },
+    "microphone_bass_choir_attack_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/12.stereo"]
+    },
+    "microphone_bass_choir_attack_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/13.stereo"]
+    },
+    "microphone_bass_choir_attack_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/14.stereo"]
+    },
+    "microphone_bass_choir_attack_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/15.stereo"]
+    },
+    "microphone_bass_choir_attack_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/16.stereo"]
+    },
+    "microphone_bass_choir_attack_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/17.stereo"]
+    },
+    "microphone_bass_choir_attack_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/18.stereo"]
+    },
+    "microphone_bass_choir_attack_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/19.stereo"]
+    },
+    "microphone_bass_choir_attack_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_bass_choir/attack/20.stereo"]
+    },
+
+    "microphone_not_miku_hold_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/0"]
+    },
+    "microphone_not_miku_hold_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/1"]
+    },
+    "microphone_not_miku_hold_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/2"]
+    },
+    "microphone_not_miku_hold_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/3"]
+    },
+    "microphone_not_miku_hold_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/4"]
+    },
+    "microphone_not_miku_hold_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/5"]
+    },
+    "microphone_not_miku_hold_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/6"]
+    },
+    "microphone_not_miku_hold_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/7"]
+    },
+    "microphone_not_miku_hold_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/8"]
+    },
+    "microphone_not_miku_hold_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/9"]
+    },
+    "microphone_not_miku_hold_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/10"]
+    },
+    "microphone_not_miku_hold_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/11"]
+    },
+    "microphone_not_miku_hold_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/12"]
+    },
+    "microphone_not_miku_hold_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/13"]
+    },
+    "microphone_not_miku_hold_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/14"]
+    },
+    "microphone_not_miku_hold_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/15"]
+    },
+    "microphone_not_miku_hold_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/16"]
+    },
+    "microphone_not_miku_hold_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/17"]
+    },
+    "microphone_not_miku_hold_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/18"]
+    },
+    "microphone_not_miku_hold_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/19"]
+    },
+    "microphone_not_miku_hold_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/20"]
+    },
+
+    "microphone_not_miku_hold_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/0.stereo"]
+    },
+    "microphone_not_miku_hold_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/1.stereo"]
+    },
+    "microphone_not_miku_hold_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/2.stereo"]
+    },
+    "microphone_not_miku_hold_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/3.stereo"]
+    },
+    "microphone_not_miku_hold_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/4.stereo"]
+    },
+    "microphone_not_miku_hold_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/5.stereo"]
+    },
+    "microphone_not_miku_hold_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/6.stereo"]
+    },
+    "microphone_not_miku_hold_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/7.stereo"]
+    },
+    "microphone_not_miku_hold_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/8.stereo"]
+    },
+    "microphone_not_miku_hold_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/9.stereo"]
+    },
+    "microphone_not_miku_hold_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/10.stereo"]
+    },
+    "microphone_not_miku_hold_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/11.stereo"]
+    },
+    "microphone_not_miku_hold_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/12.stereo"]
+    },
+    "microphone_not_miku_hold_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/13.stereo"]
+    },
+    "microphone_not_miku_hold_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/14.stereo"]
+    },
+    "microphone_not_miku_hold_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/15.stereo"]
+    },
+    "microphone_not_miku_hold_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/16.stereo"]
+    },
+    "microphone_not_miku_hold_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/17.stereo"]
+    },
+    "microphone_not_miku_hold_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/18.stereo"]
+    },
+    "microphone_not_miku_hold_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/19.stereo"]
+    },
+    "microphone_not_miku_hold_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/hold/20.stereo"]
+    },
+
+    "microphone_not_miku_attack_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/0"]
+    },
+    "microphone_not_miku_attack_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/1"]
+    },
+    "microphone_not_miku_attack_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/2"]
+    },
+    "microphone_not_miku_attack_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/3"]
+    },
+    "microphone_not_miku_attack_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/4"]
+    },
+    "microphone_not_miku_attack_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/5"]
+    },
+    "microphone_not_miku_attack_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/6"]
+    },
+    "microphone_not_miku_attack_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/7"]
+    },
+    "microphone_not_miku_attack_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/8"]
+    },
+    "microphone_not_miku_attack_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/9"]
+    },
+    "microphone_not_miku_attack_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/10"]
+    },
+    "microphone_not_miku_attack_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/11"]
+    },
+    "microphone_not_miku_attack_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/12"]
+    },
+    "microphone_not_miku_attack_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/13"]
+    },
+    "microphone_not_miku_attack_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/14"]
+    },
+    "microphone_not_miku_attack_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/15"]
+    },
+    "microphone_not_miku_attack_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/16"]
+    },
+    "microphone_not_miku_attack_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/17"]
+    },
+    "microphone_not_miku_attack_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/18"]
+    },
+    "microphone_not_miku_attack_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/19"]
+    },
+    "microphone_not_miku_attack_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/20"]
+    },
+
+    "microphone_not_miku_attack_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/0.stereo"]
+    },
+    "microphone_not_miku_attack_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/1.stereo"]
+    },
+    "microphone_not_miku_attack_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/2.stereo"]
+    },
+    "microphone_not_miku_attack_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/3.stereo"]
+    },
+    "microphone_not_miku_attack_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/4.stereo"]
+    },
+    "microphone_not_miku_attack_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/5.stereo"]
+    },
+    "microphone_not_miku_attack_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/6.stereo"]
+    },
+    "microphone_not_miku_attack_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/7.stereo"]
+    },
+    "microphone_not_miku_attack_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/8.stereo"]
+    },
+    "microphone_not_miku_attack_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/9.stereo"]
+    },
+    "microphone_not_miku_attack_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/10.stereo"]
+    },
+    "microphone_not_miku_attack_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/11.stereo"]
+    },
+    "microphone_not_miku_attack_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/12.stereo"]
+    },
+    "microphone_not_miku_attack_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/13.stereo"]
+    },
+    "microphone_not_miku_attack_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/14.stereo"]
+    },
+    "microphone_not_miku_attack_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/15.stereo"]
+    },
+    "microphone_not_miku_attack_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/16.stereo"]
+    },
+    "microphone_not_miku_attack_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/17.stereo"]
+    },
+    "microphone_not_miku_attack_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/18.stereo"]
+    },
+    "microphone_not_miku_attack_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/19.stereo"]
+    },
+    "microphone_not_miku_attack_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:microphone_not_miku/attack/20.stereo"]
     }
 }

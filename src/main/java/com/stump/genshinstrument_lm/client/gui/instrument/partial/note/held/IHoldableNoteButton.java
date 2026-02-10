@@ -1,5 +1,6 @@
 package com.stump.genshinstrument_lm.client.gui.instrument.partial.note.held;
 
+import com.stump.genshinstrument_lm.GInstrumentMod;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.IHeldInstrumentScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.InstrumentScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.NoteButton;
@@ -95,7 +96,12 @@ public interface IHoldableNoteButton {
             held.startPlaying(pitch, screen.volume(), screen.getInstrumentId());
     }
 
+    // TODO: should never send null sound packet
     default void sendNoteHeldPacket(HeldNoteSound sound, int pitch, HeldSoundPhase phase) {
+        if (sound == null) {
+            GInstrumentMod.LOGGER.error("Tried sending null held sound packet");
+            return;
+        }
         GIPacketHandler.sendToServer(new C2SHeldNoteSoundPacket(
             asNoteBtn(),
             sound, pitch,

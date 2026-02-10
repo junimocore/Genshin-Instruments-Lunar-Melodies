@@ -49,6 +49,7 @@ public class ModClientConfigs {
     public static final EnumValue<PipaSoundType> PIPA_SOUND_TYPE;
     public static final EnumValue<KeyboardSoundType> KEYBOARD_SOUND_TYPE;
     public static final EnumValue<ViolinSoundType> VIOLIN_SOUND_TYPE;
+    public static final EnumValue<MicrophoneSoundType> MICROPHONE_SOUND_TYPE;
 
     static {
         final ForgeConfigSpec.Builder configBuilder = new Builder();
@@ -86,6 +87,7 @@ public class ModClientConfigs {
         KEYBOARD_SOUND_TYPE = configBuilder.defineEnum("keyboard_sound_type", KeyboardSoundType.EMI);
         VIOLIN_SOUND_TYPE = configBuilder.defineEnum("violin_sound_type", ViolinSoundType.SLOW);
         PIPA_SOUND_TYPE = configBuilder.defineEnum("pipa_sound_type", PipaSoundType.REGULAR);
+        MICROPHONE_SOUND_TYPE = configBuilder.defineEnum("microphone_sound_type", MicrophoneSoundType.IRINA);
 
 
         MIDI_ENABLED = configBuilder.define("midi_enabled", false);

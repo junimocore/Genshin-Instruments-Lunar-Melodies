@@ -27,7 +27,8 @@ public class ModBlockEntities {
             ModInstrumentBlockEntity::new,
             ModBlocks.KEYBOARD.get(),
             ModBlocks.KEYBOARD_STAND.get(),
-            ModBlocks.KOTO.get()
+            ModBlocks.KOTO.get(),
+            ModBlocks.MICROPHONE_STAND.get()
         ).build(null)
     );
     

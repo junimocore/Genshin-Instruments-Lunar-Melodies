@@ -5,6 +5,8 @@ import com.stump.genshinstrument_lm.client.gui.instrument.InstrumentScreenRegist
 import com.stump.genshinstrument_lm.client.gui.instrument.djemdjemdrum.DjemDjemDrumScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.floralzither.FloralZitherScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.gloriousdrum.AratakisGreatAndGloriousDrumScreen;
+import com.stump.genshinstrument_lm.client.gui.instrument.microphone.MicrophoneScreen;
+import com.stump.genshinstrument_lm.client.gui.instrument.microphone.MicrophoneStandScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.nightwind_horn.NightwindHornScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.InstrumentScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.ukelele.UkuleleScreen;
@@ -61,7 +63,9 @@ public class ClientInitiator {
                 Map.entry(PipaScreen.INSTRUMENT_ID, PipaScreen::new),
                 Map.entry(ShamisenScreen.INSTRUMENT_ID, ShamisenScreen::new),
                 Map.entry(KotoScreen.INSTRUMENT_ID, KotoScreen::new),
-                Map.entry(SaxophoneScreen.INSTRUMENT_ID, SaxophoneScreen::new)
+                Map.entry(SaxophoneScreen.INSTRUMENT_ID, SaxophoneScreen::new),
+                Map.entry(MicrophoneScreen.INSTRUMENT_ID, MicrophoneScreen::new),
+                Map.entry(MicrophoneStandScreen.INSTRUMENT_ID, MicrophoneStandScreen::new)
         );
 
     @SubscribeEvent
