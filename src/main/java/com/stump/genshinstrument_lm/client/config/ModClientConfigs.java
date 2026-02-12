@@ -50,6 +50,8 @@ public class ModClientConfigs {
     public static final EnumValue<KeyboardSoundType> KEYBOARD_SOUND_TYPE;
     public static final EnumValue<ViolinSoundType> VIOLIN_SOUND_TYPE;
     public static final EnumValue<MicrophoneSoundType> MICROPHONE_SOUND_TYPE;
+    public static final EnumValue<SaxophoneSoundType> SAXOPHONE_SOUND_TYPE;
+    public static final EnumValue<TromboneSoundType> TROMBONE_SOUND_TYPE;
 
     static {
         final ForgeConfigSpec.Builder configBuilder = new Builder();
@@ -59,7 +61,7 @@ public class ModClientConfigs {
             0, NoteSound.MIN_PITCH, NoteSound.MAX_PITCH
         );
         VOLUME = configBuilder.defineInRange("instrument_volume",
-            1d, 0, 1
+            0.5, 0, 1
         );
 
         GRID_LABEL_TYPE = configBuilder.defineEnum("label_type", NoteGridLabel.KEYBOARD_LAYOUT);
@@ -84,10 +86,12 @@ public class ModClientConfigs {
         ZITHER_SOUND_TYPE = configBuilder.defineEnum("zither_sound_type", ZitherSoundType.NEW);
         GLORIOUS_DRUM_LABEL_TYPE = configBuilder.defineEnum("glorious_drum_label_type", GloriousDrumNoteLabel.KEYBOARD_LAYOUT);
         DJEM_DJEM_DRUM_LABEL_TYPE = configBuilder.defineEnum("djem_djem_drum_label_type", DjemDjemDrumNoteLabel.KEYBOARD_LAYOUT);
-        KEYBOARD_SOUND_TYPE = configBuilder.defineEnum("keyboard_sound_type", KeyboardSoundType.EMI);
-        VIOLIN_SOUND_TYPE = configBuilder.defineEnum("violin_sound_type", ViolinSoundType.SLOW);
+        KEYBOARD_SOUND_TYPE = configBuilder.defineEnum("keyboard_sound_type", KeyboardSoundType.YAMAHA_C5);
+        VIOLIN_SOUND_TYPE = configBuilder.defineEnum("violin_sound_type", ViolinSoundType.FAST);
         PIPA_SOUND_TYPE = configBuilder.defineEnum("pipa_sound_type", PipaSoundType.REGULAR);
-        MICROPHONE_SOUND_TYPE = configBuilder.defineEnum("microphone_sound_type", MicrophoneSoundType.IRINA);
+        MICROPHONE_SOUND_TYPE = configBuilder.defineEnum("microphone_sound_type", MicrophoneSoundType.MIKU);
+        SAXOPHONE_SOUND_TYPE = configBuilder.defineEnum("saxophone_sound_type", SaxophoneSoundType.TENOR);
+        TROMBONE_SOUND_TYPE = configBuilder.defineEnum("trombone_sound_type", TromboneSoundType.PHGM);
 
 
         MIDI_ENABLED = configBuilder.define("midi_enabled", false);

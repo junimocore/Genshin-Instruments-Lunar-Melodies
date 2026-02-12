@@ -958,6 +958,91 @@
         "sounds": ["genshinstrument_lm:keyboard/20.stereo"]
     },
 
+    "keyboard_gw2_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/0.stereo"]
+    },
+    "keyboard_gw2_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/1.stereo"]
+    },
+    "keyboard_gw2_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/2.stereo"]
+    },
+    "keyboard_gw2_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/3.stereo"]
+    },
+    "keyboard_gw2_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/4.stereo"]
+    },
+    "keyboard_gw2_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/5.stereo"]
+    },
+    "keyboard_gw2_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/6.stereo"]
+    },
+    "keyboard_gw2_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/7.stereo"]
+    },
+    "keyboard_gw2_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/8.stereo"]
+    },
+    "keyboard_gw2_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/9.stereo"]
+    },
+    "keyboard_gw2_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/10.stereo"]
+    },
+    "keyboard_gw2_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/11.stereo"]
+    },
+    "keyboard_gw2_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/12.stereo"]
+    },
+    "keyboard_gw2_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/13.stereo"]
+    },
+    "keyboard_gw2_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/14.stereo"]
+    },
+    "keyboard_gw2_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/15.stereo"]
+    },
+    "keyboard_gw2_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/16.stereo"]
+    },
+    "keyboard_gw2_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/17.stereo"]
+    },
+    "keyboard_gw2_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/18.stereo"]
+    },
+    "keyboard_gw2_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/19.stereo"]
+    },
+    "keyboard_gw2_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:keyboard_gw2/20.stereo"]
+    },
+
     "keyboard_gw2_note_0": {
         "category": "record",
         "sounds": ["genshinstrument_lm:keyboard_gw2/0"]
@@ -3764,5 +3849,1365 @@
     "microphone_not_miku_attack_note_20_stereo": {
         "category": "record",
         "sounds": ["genshinstrument_lm:microphone_not_miku/attack/20.stereo"]
+    },
+
+    "saxophone_baritone_hold_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/0"]
+    },
+    "saxophone_baritone_hold_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/1"]
+    },
+    "saxophone_baritone_hold_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/2"]
+    },
+    "saxophone_baritone_hold_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/3"]
+    },
+    "saxophone_baritone_hold_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/4"]
+    },
+    "saxophone_baritone_hold_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/5"]
+    },
+    "saxophone_baritone_hold_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/6"]
+    },
+    "saxophone_baritone_hold_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/7"]
+    },
+    "saxophone_baritone_hold_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/8"]
+    },
+    "saxophone_baritone_hold_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/9"]
+    },
+    "saxophone_baritone_hold_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/10"]
+    },
+    "saxophone_baritone_hold_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/11"]
+    },
+    "saxophone_baritone_hold_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/12"]
+    },
+    "saxophone_baritone_hold_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/13"]
+    },
+    "saxophone_baritone_hold_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/14"]
+    },
+    "saxophone_baritone_hold_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/15"]
+    },
+    "saxophone_baritone_hold_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/16"]
+    },
+    "saxophone_baritone_hold_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/17"]
+    },
+    "saxophone_baritone_hold_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/18"]
+    },
+    "saxophone_baritone_hold_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/19"]
+    },
+    "saxophone_baritone_hold_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/20"]
+    },
+
+    "saxophone_baritone_hold_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/0.stereo"]
+    },
+    "saxophone_baritone_hold_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/1.stereo"]
+    },
+    "saxophone_baritone_hold_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/2.stereo"]
+    },
+    "saxophone_baritone_hold_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/3.stereo"]
+    },
+    "saxophone_baritone_hold_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/4.stereo"]
+    },
+    "saxophone_baritone_hold_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/5.stereo"]
+    },
+    "saxophone_baritone_hold_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/6.stereo"]
+    },
+    "saxophone_baritone_hold_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/7.stereo"]
+    },
+    "saxophone_baritone_hold_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/8.stereo"]
+    },
+    "saxophone_baritone_hold_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/9.stereo"]
+    },
+    "saxophone_baritone_hold_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/10.stereo"]
+    },
+    "saxophone_baritone_hold_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/11.stereo"]
+    },
+    "saxophone_baritone_hold_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/12.stereo"]
+    },
+    "saxophone_baritone_hold_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/13.stereo"]
+    },
+    "saxophone_baritone_hold_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/14.stereo"]
+    },
+    "saxophone_baritone_hold_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/15.stereo"]
+    },
+    "saxophone_baritone_hold_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/16.stereo"]
+    },
+    "saxophone_baritone_hold_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/17.stereo"]
+    },
+    "saxophone_baritone_hold_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/18.stereo"]
+    },
+    "saxophone_baritone_hold_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/19.stereo"]
+    },
+    "saxophone_baritone_hold_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/hold/20.stereo"]
+    },
+
+    "saxophone_baritone_attack_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/0"]
+    },
+    "saxophone_baritone_attack_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/1"]
+    },
+    "saxophone_baritone_attack_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/2"]
+    },
+    "saxophone_baritone_attack_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/3"]
+    },
+    "saxophone_baritone_attack_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/4"]
+    },
+    "saxophone_baritone_attack_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/5"]
+    },
+    "saxophone_baritone_attack_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/6"]
+    },
+    "saxophone_baritone_attack_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/7"]
+    },
+    "saxophone_baritone_attack_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/8"]
+    },
+    "saxophone_baritone_attack_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/9"]
+    },
+    "saxophone_baritone_attack_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/10"]
+    },
+    "saxophone_baritone_attack_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/11"]
+    },
+    "saxophone_baritone_attack_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/12"]
+    },
+    "saxophone_baritone_attack_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/13"]
+    },
+    "saxophone_baritone_attack_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/14"]
+    },
+    "saxophone_baritone_attack_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/15"]
+    },
+    "saxophone_baritone_attack_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/16"]
+    },
+    "saxophone_baritone_attack_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/17"]
+    },
+    "saxophone_baritone_attack_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/18"]
+    },
+    "saxophone_baritone_attack_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/19"]
+    },
+    "saxophone_baritone_attack_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/20"]
+    },
+
+    "saxophone_baritone_attack_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/0.stereo"]
+    },
+    "saxophone_baritone_attack_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/1.stereo"]
+    },
+    "saxophone_baritone_attack_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/2.stereo"]
+    },
+    "saxophone_baritone_attack_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/3.stereo"]
+    },
+    "saxophone_baritone_attack_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/4.stereo"]
+    },
+    "saxophone_baritone_attack_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/5.stereo"]
+    },
+    "saxophone_baritone_attack_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/6.stereo"]
+    },
+    "saxophone_baritone_attack_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/7.stereo"]
+    },
+    "saxophone_baritone_attack_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/8.stereo"]
+    },
+    "saxophone_baritone_attack_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/9.stereo"]
+    },
+    "saxophone_baritone_attack_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/10.stereo"]
+    },
+    "saxophone_baritone_attack_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/11.stereo"]
+    },
+    "saxophone_baritone_attack_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/12.stereo"]
+    },
+    "saxophone_baritone_attack_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/13.stereo"]
+    },
+    "saxophone_baritone_attack_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/14.stereo"]
+    },
+    "saxophone_baritone_attack_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/15.stereo"]
+    },
+    "saxophone_baritone_attack_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/16.stereo"]
+    },
+    "saxophone_baritone_attack_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/17.stereo"]
+    },
+    "saxophone_baritone_attack_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/18.stereo"]
+    },
+    "saxophone_baritone_attack_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/19.stereo"]
+    },
+    "saxophone_baritone_attack_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_baritone/attack/20.stereo"]
+    },
+
+    "saxophone_tenor_hold_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/0"]
+    },
+    "saxophone_tenor_hold_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/1"]
+    },
+    "saxophone_tenor_hold_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/2"]
+    },
+    "saxophone_tenor_hold_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/3"]
+    },
+    "saxophone_tenor_hold_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/4"]
+    },
+    "saxophone_tenor_hold_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/5"]
+    },
+    "saxophone_tenor_hold_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/6"]
+    },
+    "saxophone_tenor_hold_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/7"]
+    },
+    "saxophone_tenor_hold_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/8"]
+    },
+    "saxophone_tenor_hold_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/9"]
+    },
+    "saxophone_tenor_hold_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/10"]
+    },
+    "saxophone_tenor_hold_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/11"]
+    },
+    "saxophone_tenor_hold_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/12"]
+    },
+    "saxophone_tenor_hold_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/13"]
+    },
+    "saxophone_tenor_hold_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/14"]
+    },
+    "saxophone_tenor_hold_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/15"]
+    },
+    "saxophone_tenor_hold_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/16"]
+    },
+    "saxophone_tenor_hold_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/17"]
+    },
+    "saxophone_tenor_hold_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/18"]
+    },
+    "saxophone_tenor_hold_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/19"]
+    },
+    "saxophone_tenor_hold_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/20"]
+    },
+
+    "saxophone_tenor_hold_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/0.stereo"]
+    },
+    "saxophone_tenor_hold_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/1.stereo"]
+    },
+    "saxophone_tenor_hold_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/2.stereo"]
+    },
+    "saxophone_tenor_hold_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/3.stereo"]
+    },
+    "saxophone_tenor_hold_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/4.stereo"]
+    },
+    "saxophone_tenor_hold_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/5.stereo"]
+    },
+    "saxophone_tenor_hold_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/6.stereo"]
+    },
+    "saxophone_tenor_hold_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/7.stereo"]
+    },
+    "saxophone_tenor_hold_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/8.stereo"]
+    },
+    "saxophone_tenor_hold_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/9.stereo"]
+    },
+    "saxophone_tenor_hold_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/10.stereo"]
+    },
+    "saxophone_tenor_hold_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/11.stereo"]
+    },
+    "saxophone_tenor_hold_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/12.stereo"]
+    },
+    "saxophone_tenor_hold_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/13.stereo"]
+    },
+    "saxophone_tenor_hold_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/14.stereo"]
+    },
+    "saxophone_tenor_hold_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/15.stereo"]
+    },
+    "saxophone_tenor_hold_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/16.stereo"]
+    },
+    "saxophone_tenor_hold_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/17.stereo"]
+    },
+    "saxophone_tenor_hold_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/18.stereo"]
+    },
+    "saxophone_tenor_hold_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/19.stereo"]
+    },
+    "saxophone_tenor_hold_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/hold/20.stereo"]
+    },
+
+    "saxophone_tenor_attack_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/0"]
+    },
+    "saxophone_tenor_attack_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/1"]
+    },
+    "saxophone_tenor_attack_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/2"]
+    },
+    "saxophone_tenor_attack_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/3"]
+    },
+    "saxophone_tenor_attack_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/4"]
+    },
+    "saxophone_tenor_attack_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/5"]
+    },
+    "saxophone_tenor_attack_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/6"]
+    },
+    "saxophone_tenor_attack_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/7"]
+    },
+    "saxophone_tenor_attack_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/8"]
+    },
+    "saxophone_tenor_attack_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/9"]
+    },
+    "saxophone_tenor_attack_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/10"]
+    },
+    "saxophone_tenor_attack_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/11"]
+    },
+    "saxophone_tenor_attack_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/12"]
+    },
+    "saxophone_tenor_attack_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/13"]
+    },
+    "saxophone_tenor_attack_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/14"]
+    },
+    "saxophone_tenor_attack_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/15"]
+    },
+    "saxophone_tenor_attack_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/16"]
+    },
+    "saxophone_tenor_attack_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/17"]
+    },
+    "saxophone_tenor_attack_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/18"]
+    },
+    "saxophone_tenor_attack_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/19"]
+    },
+    "saxophone_tenor_attack_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/20"]
+    },
+
+    "saxophone_tenor_attack_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/0.stereo"]
+    },
+    "saxophone_tenor_attack_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/1.stereo"]
+    },
+    "saxophone_tenor_attack_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/2.stereo"]
+    },
+    "saxophone_tenor_attack_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/3.stereo"]
+    },
+    "saxophone_tenor_attack_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/4.stereo"]
+    },
+    "saxophone_tenor_attack_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/5.stereo"]
+    },
+    "saxophone_tenor_attack_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/6.stereo"]
+    },
+    "saxophone_tenor_attack_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/7.stereo"]
+    },
+    "saxophone_tenor_attack_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/8.stereo"]
+    },
+    "saxophone_tenor_attack_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/9.stereo"]
+    },
+    "saxophone_tenor_attack_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/10.stereo"]
+    },
+    "saxophone_tenor_attack_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/11.stereo"]
+    },
+    "saxophone_tenor_attack_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/12.stereo"]
+    },
+    "saxophone_tenor_attack_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/13.stereo"]
+    },
+    "saxophone_tenor_attack_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/14.stereo"]
+    },
+    "saxophone_tenor_attack_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/15.stereo"]
+    },
+    "saxophone_tenor_attack_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/16.stereo"]
+    },
+    "saxophone_tenor_attack_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/17.stereo"]
+    },
+    "saxophone_tenor_attack_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/18.stereo"]
+    },
+    "saxophone_tenor_attack_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/19.stereo"]
+    },
+    "saxophone_tenor_attack_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:saxophone_tenor/attack/20.stereo"]
+    },
+
+    "trombone_phgm_hold_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/0"]
+    },
+    "trombone_phgm_hold_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/1"]
+    },
+    "trombone_phgm_hold_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/2"]
+    },
+    "trombone_phgm_hold_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/3"]
+    },
+    "trombone_phgm_hold_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/4"]
+    },
+    "trombone_phgm_hold_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/5"]
+    },
+    "trombone_phgm_hold_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/6"]
+    },
+    "trombone_phgm_hold_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/7"]
+    },
+    "trombone_phgm_hold_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/8"]
+    },
+    "trombone_phgm_hold_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/9"]
+    },
+    "trombone_phgm_hold_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/10"]
+    },
+    "trombone_phgm_hold_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/11"]
+    },
+    "trombone_phgm_hold_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/12"]
+    },
+    "trombone_phgm_hold_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/13"]
+    },
+    "trombone_phgm_hold_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/14"]
+    },
+    "trombone_phgm_hold_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/15"]
+    },
+    "trombone_phgm_hold_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/16"]
+    },
+    "trombone_phgm_hold_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/17"]
+    },
+    "trombone_phgm_hold_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/18"]
+    },
+    "trombone_phgm_hold_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/19"]
+    },
+    "trombone_phgm_hold_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/20"]
+    },
+
+    "trombone_phgm_hold_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/0.stereo"]
+    },
+    "trombone_phgm_hold_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/1.stereo"]
+    },
+    "trombone_phgm_hold_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/2.stereo"]
+    },
+    "trombone_phgm_hold_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/3.stereo"]
+    },
+    "trombone_phgm_hold_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/4.stereo"]
+    },
+    "trombone_phgm_hold_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/5.stereo"]
+    },
+    "trombone_phgm_hold_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/6.stereo"]
+    },
+    "trombone_phgm_hold_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/7.stereo"]
+    },
+    "trombone_phgm_hold_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/8.stereo"]
+    },
+    "trombone_phgm_hold_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/9.stereo"]
+    },
+    "trombone_phgm_hold_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/10.stereo"]
+    },
+    "trombone_phgm_hold_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/11.stereo"]
+    },
+    "trombone_phgm_hold_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/12.stereo"]
+    },
+    "trombone_phgm_hold_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/13.stereo"]
+    },
+    "trombone_phgm_hold_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/14.stereo"]
+    },
+    "trombone_phgm_hold_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/15.stereo"]
+    },
+    "trombone_phgm_hold_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/16.stereo"]
+    },
+    "trombone_phgm_hold_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/17.stereo"]
+    },
+    "trombone_phgm_hold_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/18.stereo"]
+    },
+    "trombone_phgm_hold_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/19.stereo"]
+    },
+    "trombone_phgm_hold_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/hold/20.stereo"]
+    },
+
+    "trombone_phgm_attack_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/0"]
+    },
+    "trombone_phgm_attack_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/1"]
+    },
+    "trombone_phgm_attack_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/2"]
+    },
+    "trombone_phgm_attack_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/3"]
+    },
+    "trombone_phgm_attack_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/4"]
+    },
+    "trombone_phgm_attack_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/5"]
+    },
+    "trombone_phgm_attack_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/6"]
+    },
+    "trombone_phgm_attack_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/7"]
+    },
+    "trombone_phgm_attack_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/8"]
+    },
+    "trombone_phgm_attack_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/9"]
+    },
+    "trombone_phgm_attack_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/10"]
+    },
+    "trombone_phgm_attack_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/11"]
+    },
+    "trombone_phgm_attack_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/12"]
+    },
+    "trombone_phgm_attack_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/13"]
+    },
+    "trombone_phgm_attack_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/14"]
+    },
+    "trombone_phgm_attack_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/15"]
+    },
+    "trombone_phgm_attack_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/16"]
+    },
+    "trombone_phgm_attack_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/17"]
+    },
+    "trombone_phgm_attack_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/18"]
+    },
+    "trombone_phgm_attack_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/19"]
+    },
+    "trombone_phgm_attack_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/20"]
+    },
+
+    "trombone_phgm_attack_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/0.stereo"]
+    },
+    "trombone_phgm_attack_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/1.stereo"]
+    },
+    "trombone_phgm_attack_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/2.stereo"]
+    },
+    "trombone_phgm_attack_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/3.stereo"]
+    },
+    "trombone_phgm_attack_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/4.stereo"]
+    },
+    "trombone_phgm_attack_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/5.stereo"]
+    },
+    "trombone_phgm_attack_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/6.stereo"]
+    },
+    "trombone_phgm_attack_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/7.stereo"]
+    },
+    "trombone_phgm_attack_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/8.stereo"]
+    },
+    "trombone_phgm_attack_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/9.stereo"]
+    },
+    "trombone_phgm_attack_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/10.stereo"]
+    },
+    "trombone_phgm_attack_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/11.stereo"]
+    },
+    "trombone_phgm_attack_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/12.stereo"]
+    },
+    "trombone_phgm_attack_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/13.stereo"]
+    },
+    "trombone_phgm_attack_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/14.stereo"]
+    },
+    "trombone_phgm_attack_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/15.stereo"]
+    },
+    "trombone_phgm_attack_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/16.stereo"]
+    },
+    "trombone_phgm_attack_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/17.stereo"]
+    },
+    "trombone_phgm_attack_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/18.stereo"]
+    },
+    "trombone_phgm_attack_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/19.stereo"]
+    },
+    "trombone_phgm_attack_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trombone_phgm/attack/20.stereo"]
+    },
+
+    "trumpet_westgate_studios_hold_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/0"]
+    },
+    "trumpet_westgate_studios_hold_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/1"]
+    },
+    "trumpet_westgate_studios_hold_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/2"]
+    },
+    "trumpet_westgate_studios_hold_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/3"]
+    },
+    "trumpet_westgate_studios_hold_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/4"]
+    },
+    "trumpet_westgate_studios_hold_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/5"]
+    },
+    "trumpet_westgate_studios_hold_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/6"]
+    },
+    "trumpet_westgate_studios_hold_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/7"]
+    },
+    "trumpet_westgate_studios_hold_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/8"]
+    },
+    "trumpet_westgate_studios_hold_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/9"]
+    },
+    "trumpet_westgate_studios_hold_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/10"]
+    },
+    "trumpet_westgate_studios_hold_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/11"]
+    },
+    "trumpet_westgate_studios_hold_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/12"]
+    },
+    "trumpet_westgate_studios_hold_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/13"]
+    },
+    "trumpet_westgate_studios_hold_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/14"]
+    },
+    "trumpet_westgate_studios_hold_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/15"]
+    },
+    "trumpet_westgate_studios_hold_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/16"]
+    },
+    "trumpet_westgate_studios_hold_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/17"]
+    },
+    "trumpet_westgate_studios_hold_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/18"]
+    },
+    "trumpet_westgate_studios_hold_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/19"]
+    },
+    "trumpet_westgate_studios_hold_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/20"]
+    },
+
+    "trumpet_westgate_studios_hold_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/0.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/1.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/2.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/3.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/4.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/5.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/6.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/7.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/8.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/9.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/10.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/11.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/12.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/13.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/14.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/15.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/16.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/17.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/18.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/19.stereo"]
+    },
+    "trumpet_westgate_studios_hold_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/hold/20.stereo"]
+    },
+
+    "trumpet_westgate_studios_attack_note_0": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/0"]
+    },
+    "trumpet_westgate_studios_attack_note_1": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/1"]
+    },
+    "trumpet_westgate_studios_attack_note_2": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/2"]
+    },
+    "trumpet_westgate_studios_attack_note_3": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/3"]
+    },
+    "trumpet_westgate_studios_attack_note_4": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/4"]
+    },
+    "trumpet_westgate_studios_attack_note_5": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/5"]
+    },
+    "trumpet_westgate_studios_attack_note_6": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/6"]
+    },
+    "trumpet_westgate_studios_attack_note_7": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/7"]
+    },
+    "trumpet_westgate_studios_attack_note_8": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/8"]
+    },
+    "trumpet_westgate_studios_attack_note_9": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/9"]
+    },
+    "trumpet_westgate_studios_attack_note_10": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/10"]
+    },
+    "trumpet_westgate_studios_attack_note_11": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/11"]
+    },
+    "trumpet_westgate_studios_attack_note_12": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/12"]
+    },
+    "trumpet_westgate_studios_attack_note_13": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/13"]
+    },
+    "trumpet_westgate_studios_attack_note_14": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/14"]
+    },
+    "trumpet_westgate_studios_attack_note_15": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/15"]
+    },
+    "trumpet_westgate_studios_attack_note_16": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/16"]
+    },
+    "trumpet_westgate_studios_attack_note_17": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/17"]
+    },
+    "trumpet_westgate_studios_attack_note_18": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/18"]
+    },
+    "trumpet_westgate_studios_attack_note_19": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/19"]
+    },
+    "trumpet_westgate_studios_attack_note_20": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/20"]
+    },
+
+    "trumpet_westgate_studios_attack_note_0_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/0.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_1_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/1.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_2_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/2.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_3_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/3.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_4_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/4.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_5_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/5.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_6_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/6.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_7_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/7.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_8_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/8.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_9_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/9.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_10_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/10.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_11_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/11.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_12_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/12.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_13_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/13.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_14_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/14.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_15_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/15.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_16_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/16.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_17_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/17.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_18_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/18.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_19_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/19.stereo"]
+    },
+    "trumpet_westgate_studios_attack_note_20_stereo": {
+        "category": "record",
+        "sounds": ["genshinstrument_lm:trumpet_westgate_studios/attack/20.stereo"]
     }
 }

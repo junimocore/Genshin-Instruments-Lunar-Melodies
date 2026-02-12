@@ -1,5 +1,6 @@
 package com.stump.genshinstrument_lm.client.gui.instrument.partial.grid;
 
+import com.stump.genshinstrument_lm.GInstrumentMod;
 import com.stump.genshinstrument_lm.client.config.ModClientConfigs;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.*;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.*;
@@ -36,7 +37,6 @@ public abstract class GridInstrumentScreen extends InstrumentScreen implements I
     protected AbstractLayout grid;
     public NoteGrid noteGrid;
     protected Map<Key, NoteButton> noteMap;
-    private SoundOption soundOption;
 
     /* ============================================================
      *  Note Grid Generation
@@ -240,34 +240,18 @@ public abstract class GridInstrumentScreen extends InstrumentScreen implements I
 
     @Override
     public void setSoundOption(SoundOption option) {
-        boolean wasHeld = this.soundOption != null && this.soundOption.isHeld();
+        GInstrumentMod.LOGGER.error("isHeld before setting: " + getSoundOption().isHeld());
+        boolean wasHeld = getSoundOption() != null && getSoundOption().isHeld();
         boolean nowHeld = option.isHeld();
+        GInstrumentMod.LOGGER.error("isHeld after setting: " + getSoundOption().isHeld());
+        GInstrumentMod.LOGGER.error("wasHeld after setting: " + wasHeld);
+        GInstrumentMod.LOGGER.error("nowHeld after setting: " + nowHeld);
+
 
         // If switching from held type, release old sounds
-        if (wasHeld) {
-            closeHeldScreen();
-        }
-
-        this.soundOption = option;
-
-        // Rebuild buttons if instrument type changes
-        if (wasHeld != nowHeld) {
-            buildGrid();
-            return;
-        }
-
-        // Update sounds
-        if (nowHeld) {
-            setHeldNoteSounds(option.getHeldSounds());
-            setNoteSounds(HeldNoteSound.getSounds(option.getHeldSounds(), HeldNoteSound.Phase.ATTACK));
-        } else {
-            setNoteSounds(option.getNoteSounds());
-        }
-    }
-
-    @Override
-    public SoundOption getSoundOption() {
-        return soundOption;
+        closeHeldScreen();
+        super.setSoundOption(option);
+        buildGrid();
     }
 
     @Override
@@ -301,6 +285,7 @@ public abstract class GridInstrumentScreen extends InstrumentScreen implements I
     public boolean isHeldInstrument() {
         return getSoundOption().isHeld();
     }
+
 
     /* ============================================================
      *  Playback Stuff

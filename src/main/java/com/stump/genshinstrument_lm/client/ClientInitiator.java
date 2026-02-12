@@ -9,6 +9,8 @@ import com.stump.genshinstrument_lm.client.gui.instrument.microphone.MicrophoneS
 import com.stump.genshinstrument_lm.client.gui.instrument.microphone.MicrophoneStandScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.nightwind_horn.NightwindHornScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.InstrumentScreen;
+import com.stump.genshinstrument_lm.client.gui.instrument.saxophone.SaxophoneScreen;
+import com.stump.genshinstrument_lm.client.gui.instrument.trombone.TromboneScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.ukelele.UkuleleScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.vintagelyre.VintageLyreScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.windsonglyre.WindsongLyreScreen;
@@ -18,9 +20,7 @@ import com.stump.genshinstrument_lm.client.gui.instrument.keyboard.KeyboardScree
 import com.stump.genshinstrument_lm.client.gui.instrument.koto.KotoScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.noteblockinstrument.NoteBlockInstrumentScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.pipa.PipaScreen;
-import com.stump.genshinstrument_lm.client.gui.instrument.saxophone.SaxophoneScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.shamisen.ShamisenScreen;
-import com.stump.genshinstrument_lm.client.gui.instrument.trombone.TromboneScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.violin.ViolinScreen;
 import com.stump.genshinstrument_lm.util.CommonUtil;
 import net.minecraft.resources.ResourceLocation;

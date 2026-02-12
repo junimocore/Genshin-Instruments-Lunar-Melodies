@@ -652,9 +652,5 @@ public abstract class InstrumentScreen extends Screen {
 
     public void setSoundOption(SoundOption option) {
         this.soundOption = option;
-
-        if (!option.isHeld()) {
-            setNoteSounds(option.getNoteSounds());
-        }
     }
 }
