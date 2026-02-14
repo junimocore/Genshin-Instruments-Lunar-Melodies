@@ -33,7 +33,7 @@ public class LooperOverlayInjector {
 
     private static InstrumentScreen screen = null;
     private static boolean isRecording = false;
-    private static Button recordBtn;
+    public static Button recordBtn;
 
     @SuppressWarnings("resource")
     @SubscribeEvent

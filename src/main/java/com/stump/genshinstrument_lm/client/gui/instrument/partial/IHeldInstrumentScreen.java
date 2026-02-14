@@ -101,7 +101,8 @@ public interface IHeldInstrumentScreen {
         //FIXME duplicate of InstrumentScreen#getNoteButton. Convert to generic of sound type.
 
         for (final NoteButton note : asScreen().notesIterable()) {
-            final IHoldableNoteButton heldNote = (IHoldableNoteButton) note;
+            if (!(note instanceof IHoldableNoteButton heldNote))
+                continue;
             final HeldNoteSound sound = heldNote.getHeldNoteSound();
 
             if (!noteSound.equals(sound))

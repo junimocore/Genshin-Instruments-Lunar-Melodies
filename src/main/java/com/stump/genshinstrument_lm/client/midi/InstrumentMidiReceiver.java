@@ -116,7 +116,7 @@ public abstract class InstrumentMidiReceiver {
      * @param basePitch The pitch of the instrument, before any transformations
      * @return A pressed MIDI note result if succeeded; null otherwise
      */
-    protected PressedMIDINote playNote(NoteButton noteBtn, @Nullable MidiOverflowResult midiOverflow, int basePitch) {
+    public PressedMIDINote playNote(NoteButton noteBtn, @Nullable MidiOverflowResult midiOverflow, int basePitch) {
         if (midiOverflow == null) {
             noteBtn.play();
             return new PressedMIDINote(noteBtn.getPitch(), noteBtn, noteBtn.getSound());
@@ -256,7 +256,7 @@ public abstract class InstrumentMidiReceiver {
      * @param note The current note
      * @return The MIDI overflow result, or null when not overflowing.
      */
-    protected @Nullable MidiOverflowResult handleMidiOverflow(int note) {
+    public @Nullable MidiOverflowResult handleMidiOverflow(int note) {
         if (!canMidiOverflow())
             return null;
 

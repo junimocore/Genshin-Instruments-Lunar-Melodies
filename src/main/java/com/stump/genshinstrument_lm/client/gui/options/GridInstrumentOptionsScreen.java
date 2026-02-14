@@ -2,11 +2,13 @@ package com.stump.genshinstrument_lm.client.gui.options;
 
 import com.stump.genshinstrument_lm.GInstrumentMod;
 import com.stump.genshinstrument_lm.client.config.ModClientConfigs;
+import com.stump.genshinstrument_lm.client.config.enumType.ControlModeType;
 import com.stump.genshinstrument_lm.client.config.enumType.NoteGridLabel;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.grid.GridInstrumentScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.label.INoteLabel;
 import com.stump.genshinstrument_lm.client.gui.options.partial.InstrumentOptionsScreen;
 import net.minecraft.client.gui.components.CycleButton;
+import net.minecraft.client.gui.components.Tooltip;
 import net.minecraft.client.gui.layouts.GridLayout;
 import net.minecraft.client.gui.layouts.GridLayout.RowHelper;
 import net.minecraft.client.gui.screens.Screen;
@@ -32,7 +34,6 @@ public class GridInstrumentOptionsScreen extends InstrumentOptionsScreen {
         super(lastScreen);
     }
 
-
     @Override
     public INoteLabel[] getLabels() {
         return NoteGridLabel.availableVals();
@@ -48,7 +49,6 @@ public class GridInstrumentOptionsScreen extends InstrumentOptionsScreen {
             ModClientConfigs.GRID_LABEL_TYPE.set((NoteGridLabel)newLabel);
     }
 
-
     @Override
     public boolean isPitchSliderEnabled() {
         return !instrumentScreen
@@ -56,7 +56,6 @@ public class GridInstrumentOptionsScreen extends InstrumentOptionsScreen {
             .map(GridInstrumentScreen::isSSTI)
             .orElse(false);
     }
-
 
     @Override
     protected void initVisualsSection(GridLayout grid, RowHelper rowHelper) {
@@ -71,10 +70,45 @@ public class GridInstrumentOptionsScreen extends InstrumentOptionsScreen {
         super.initVisualsSection(grid, rowHelper);
     }
 
+    @Override
+    protected void initControlSection(GridLayout grid, RowHelper rowHelper) {
+        CycleButton<ControlModeType> controlModeButton = CycleButton.<ControlModeType>builder(mode ->
+                        Component.translatable("button.genshinstrument_lm.control_mode." + mode.name().toLowerCase())
+                )
+                .withValues(ControlModeType.values())
+                .withInitialValue(ModClientConfigs.CONTROL_MODE.get()) // optional persistent config
+                .create(0, 0,
+                        getSmallButtonWidth(), getButtonHeight(), Component.translatable("button.genshinstrument_lm.control_mode"), this::onControlModeChanged
+                );
+        rowHelper.addChild(controlModeButton);
+
+        final CycleButton<Boolean> extendRange = CycleButton.booleanBuilder(CommonComponents.OPTION_ON, CommonComponents.OPTION_OFF)
+                .withInitialValue(ModClientConfigs.EXTEND_RANGE.get())
+                .withTooltip((value) -> Tooltip.create(Component.translatable("button.genshinstrument_lm.extend_range.tooltip")))
+                .create(0, 0,
+                        getSmallButtonWidth(), getButtonHeight(),
+                        Component.translatable("button.genshinstrument_lm.extend_range"), this::onExtendRangeChanged
+                );
+        rowHelper.addChild(extendRange);
+
+        super.initControlSection(grid, rowHelper);
+    }
+
     protected void onRenderBackgroundChanged(final CycleButton<Boolean> button, final boolean value) {
         ModClientConfigs.RENDER_BACKGROUND.set(value);
     }
 
+    protected void onExtendRangeChanged(final CycleButton<Boolean> button, final boolean value) {
+        ModClientConfigs.EXTEND_RANGE.set(value);
+        instrumentScreen.ifPresent(screen -> {
+            if (screen instanceof GridInstrumentScreen gridScreen) {
+                gridScreen.updateOctaveRange(value);
+            }
+        });
+    }
+    protected void onControlModeChanged(final CycleButton<ControlModeType> button, final ControlModeType value) {
+        ModClientConfigs.CONTROL_MODE.set(value);
+    }
 
     // Register this options type as the main configs
     @SubscribeEvent

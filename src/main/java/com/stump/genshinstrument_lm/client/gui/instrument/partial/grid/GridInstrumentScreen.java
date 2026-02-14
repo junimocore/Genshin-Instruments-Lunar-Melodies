@@ -1,7 +1,8 @@
 package com.stump.genshinstrument_lm.client.gui.instrument.partial.grid;
 
-import com.stump.genshinstrument_lm.GInstrumentMod;
 import com.stump.genshinstrument_lm.client.config.ModClientConfigs;
+import com.stump.genshinstrument_lm.client.config.enumType.ControlModeType;
+import com.stump.genshinstrument_lm.client.gui.instrument.LooperOverlayInjector;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.*;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.*;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.note.grid.*;
@@ -38,6 +39,11 @@ public abstract class GridInstrumentScreen extends InstrumentScreen implements I
     public NoteGrid noteGrid;
     protected Map<Key, NoteButton> noteMap;
 
+    private GridOctaveSwapController octaveController;
+    private int currentOctave = 0;
+    private int minOctave;
+    private int maxOctave;
+
     /* ============================================================
      *  Note Grid Generation
      * ============================================================ */
@@ -66,8 +72,32 @@ public abstract class GridInstrumentScreen extends InstrumentScreen implements I
 
     @Override
     protected void init() {
+        updateOctaveRange(ModClientConfigs.EXTEND_RANGE.get());
         buildGrid();
         super.init();
+        octaveController = new GridOctaveSwapController(this);
+    }
+
+    @Override
+    public boolean keyPressed(int keyCode, int scanCode, int modifiers) {
+        if (ModClientConfigs.CONTROL_MODE.get() == ControlModeType.OCTAVE_SWAP) {
+            octaveController.handleKeyPress(keyCode, scanCode);
+            // Ignore default note hotkeys in octave mode
+            final NoteButton note = getNoteByKey(keyCode);
+            if (note != null) {
+                return true;
+            }
+        }
+        return super.keyPressed(keyCode, scanCode, modifiers);
+    }
+
+    @Override
+    public boolean keyReleased(int keyCode, int scanCode, int modifiers) {
+        if (ModClientConfigs.CONTROL_MODE.get() == ControlModeType.OCTAVE_SWAP) {
+            octaveController.handleKeyRelease(keyCode);
+            return true;
+        }
+        return super.keyReleased(keyCode, scanCode, modifiers);
     }
 
     /* ============================================================
@@ -160,6 +190,18 @@ public abstract class GridInstrumentScreen extends InstrumentScreen implements I
             renderInstrumentBackground(gui);
 
         super.renderInstrument(gui, pMouseX, pMouseY, pPartialTick);
+
+        if (ModClientConfigs.CONTROL_MODE.get() == ControlModeType.OCTAVE_SWAP) {
+            int buttonWidth = 150, buttonHeight = 20;
+            int buttonX = (width - buttonWidth) / 2;
+            int buttonY = grid.getY() - 15 - buttonHeight / 2;
+
+            String text = "Octave: " + getCurrentOctave();
+            int textX = buttonX + (buttonWidth / 2) - (font.width(text) / 2);
+            int textY = buttonY - 12;
+
+            gui.drawString(font, text, textX, textY, 0xFFFFFF);
+        }
     }
 
     /**
@@ -240,18 +282,12 @@ public abstract class GridInstrumentScreen extends InstrumentScreen implements I
 
     @Override
     public void setSoundOption(SoundOption option) {
-        GInstrumentMod.LOGGER.error("isHeld before setting: " + getSoundOption().isHeld());
-        boolean wasHeld = getSoundOption() != null && getSoundOption().isHeld();
-        boolean nowHeld = option.isHeld();
-        GInstrumentMod.LOGGER.error("isHeld after setting: " + getSoundOption().isHeld());
-        GInstrumentMod.LOGGER.error("wasHeld after setting: " + wasHeld);
-        GInstrumentMod.LOGGER.error("nowHeld after setting: " + nowHeld);
-
-
-        // If switching from held type, release old sounds
         closeHeldScreen();
         super.setSoundOption(option);
         buildGrid();
+        if (LooperOverlayInjector.recordBtn != null) {
+            addRenderableWidget(LooperOverlayInjector.recordBtn);
+        }
     }
 
     @Override
@@ -310,5 +346,23 @@ public abstract class GridInstrumentScreen extends InstrumentScreen implements I
             closeHeldScreen();
 
         super.onClose(notify);
+    }
+
+    /* ============================================================
+     *  Octave Tracking
+     * ============================================================ */
+
+    public int getCurrentOctave() { return currentOctave; }
+
+    public int getMinOctave() { return minOctave; }
+
+    public int getMaxOctave() { return maxOctave; }
+
+    public void setCurrentOctave(int current) { currentOctave = current; }
+
+    public void updateOctaveRange(boolean extendRange) {
+        minOctave = extendRange ? -2 : -1;
+        maxOctave = extendRange ? columns() - 1 : columns() - 2;
+        currentOctave = Math.max(minOctave, Math.min(currentOctave, maxOctave));
     }
 }

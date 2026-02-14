@@ -54,6 +54,8 @@
     "button.genshinstrument_lm.accurate_notes.tooltip": "When on, provides a pitch-accurate representation of the note symbols and accidentals used by this instrument's layout",
     "button.genshinstrument_lm.server_audio": "Server-Side Audio",
     "button.genshinstrument_lm.server_audio.tooltip": "When on, hear your notes after they reach the server. Useful for syncing with high latency",
+    "button.genshinstrument_lm.extend_range": "Extend Range",
+    "button.genshinstrument_lm.extend_range.tooltip": "Extend playable range to 5 octaves for Octave Swap mode",
 
 
     "button.genshinstrument_lm.midiEnabled": "MIDI Enabled",
@@ -96,6 +98,7 @@
     "button.genshinstrument_lm.label": "Note Labels",
     "button.genshinstrument_lm.pitch": "Pitch",
     "button.genshinstrument_lm.volume": "Instrument Volume",
+    "button.genshinstrument_lm.control_mode": "Control Mode",
 
     "button.genshinstrument_lm.zither.soundType": "Sound Type",
     "button.genshinstrument_lm.zither.soundType.old": "Old",
@@ -123,11 +126,14 @@
 
     "button.genshinstrument_lm.trombone.soundType": "Sound Type",
     "button.genshinstrument_lm.trombone.soundType.emi": "Even More Instruments",
-    "button.genshinstrument_lm.trombone.soundType.trombone": "Trombone",
+    "button.genshinstrument_lm.trombone.soundType.phgm": "Trombone",
     "button.genshinstrument_lm.trombone.soundType.westgate": "Trumpet",
 
     "button.genshinstrument_lm.label.do_re_mi": "do re mi",
     "button.genshinstrument_lm.label.do_re_mi.description": "Labels will be of the musical notation \"do re mi.\"",
+
+    "button.genshinstrument_lm.control_mode.default": "Default",
+    "button.genshinstrument_lm.control_mode.octave_swap": "Octave Swap",
 
     "genshinstrument_lm.label.do": "do",
     "genshinstrument_lm.label.re": "re",
@@ -290,5 +296,23 @@
     "genshinstrument_lm.advancements.main.record_writable_in.description": "Insert or burn music into a record",
 
     "genshinstrument_lm.advancements.main.records_all.title": "Holan'i",
-    "genshinstrument_lm.advancements.main.records_all.description": "Play all burned records"
+    "genshinstrument_lm.advancements.main.records_all.description": "Play all burned records",
+
+
+    "genshinstrument_lm.keymaps.octave_mode": "Instruments: Octave Mode",
+    "genshinstrument_lm.keymaps.octave_mode.note_c": "Note C",
+    "genshinstrument_lm.keymaps.octave_mode.note_csharp": "Note C#",
+    "genshinstrument_lm.keymaps.octave_mode.note_d": "Note D",
+    "genshinstrument_lm.keymaps.octave_mode.note_dsharp": "Note D#",
+    "genshinstrument_lm.keymaps.octave_mode.note_e": "Note E",
+    "genshinstrument_lm.keymaps.octave_mode.note_f": "Note F",
+    "genshinstrument_lm.keymaps.octave_mode.note_fsharp": "Note F#",
+    "genshinstrument_lm.keymaps.octave_mode.note_g": "Note G",
+    "genshinstrument_lm.keymaps.octave_mode.note_gsharp": "Note G#",
+    "genshinstrument_lm.keymaps.octave_mode.note_a": "Note A",
+    "genshinstrument_lm.keymaps.octave_mode.note_asharp": "Note A#",
+    "genshinstrument_lm.keymaps.octave_mode.note_b": "Note B",
+    "genshinstrument_lm.keymaps.octave_mode.note_high_c": "Note High C",
+    "genshinstrument_lm.keymaps.octave_mode.octave_down": "Octave Down",
+    "genshinstrument_lm.keymaps.octave_mode.octave_up": "Octave Up"
 }

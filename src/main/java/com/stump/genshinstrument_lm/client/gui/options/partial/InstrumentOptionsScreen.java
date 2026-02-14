@@ -1,6 +1,7 @@
 package com.stump.genshinstrument_lm.client.gui.options.partial;
 
 import com.stump.genshinstrument_lm.client.config.ModClientConfigs;
+import com.stump.genshinstrument_lm.client.config.enumType.ControlModeType;
 import com.stump.genshinstrument_lm.client.config.enumType.InstrumentChannelType;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.InstrumentScreen;
 import com.stump.genshinstrument_lm.client.gui.instrument.partial.grid.GridInstrumentScreen;
@@ -212,16 +213,6 @@ public abstract class InstrumentOptionsScreen extends AbstractInstrumentOptionsS
             );
         rowHelper.addChild(accurateNotes);
 
-        final CycleButton<Boolean> serverAudio = CycleButton.booleanBuilder(CommonComponents.OPTION_ON, CommonComponents.OPTION_OFF)
-                .withInitialValue(ModClientConfigs.SERVER_AUDIO.get())
-                .withTooltip((value) -> Tooltip.create(Component.translatable("button.genshinstrument_lm.server_audio.tooltip")))
-                .create(0, 0,
-                        getSmallButtonWidth(), getButtonHeight(),
-                        Component.translatable("button.genshinstrument_lm.server_audio"), this::onServerAudioChanged
-                );
-        rowHelper.addChild(serverAudio);
-
-
         if (labels != null) {
             final CycleButton<INoteLabel> labelType = CycleButton.<INoteLabel>builder((label) -> Component.translatable(label.getKey()))
                 .withValues(labels)
@@ -231,10 +222,21 @@ public abstract class InstrumentOptionsScreen extends AbstractInstrumentOptionsS
                     getSmallButtonWidth(), getButtonHeight(),
                     Component.translatable("button.genshinstrument_lm.label"), this::onLabelChanged
                 );
-            rowHelper.addChild(labelType);
+        rowHelper.addChild(labelType);
         }
+
+        final CycleButton<Boolean> serverAudio = CycleButton.booleanBuilder(CommonComponents.OPTION_ON, CommonComponents.OPTION_OFF)
+                .withInitialValue(ModClientConfigs.SERVER_AUDIO.get())
+                .withTooltip((value) -> Tooltip.create(Component.translatable("button.genshinstrument_lm.server_audio.tooltip")))
+                .create(0, 0,
+                        getSmallButtonWidth(), getButtonHeight(),
+                        Component.translatable("button.genshinstrument_lm.server_audio"), this::onServerAudioChanged
+                );
+        rowHelper.addChild(serverAudio);
     }
 
+    // Hook method for subclasses to add instrument-specific controls
+    protected void initControlSection(final GridLayout grid, final RowHelper rowHelper) { }
 
     /**
      * Fills the settings grid with all the necessary widgets, buttons and such
@@ -247,6 +249,7 @@ public abstract class InstrumentOptionsScreen extends AbstractInstrumentOptionsS
         rowHelper.addChild(SpacerElement.height(7), 2);
         
         initVisualsSection(grid, rowHelper);
+        initControlSection(grid, rowHelper);
     }
 
     private int getPitch() {
@@ -317,7 +320,6 @@ public abstract class InstrumentOptionsScreen extends AbstractInstrumentOptionsS
     protected void onServerAudioChanged(final CycleButton<Boolean> button, final boolean value) {
         ModClientConfigs.SERVER_AUDIO.set(value);
     }
-
 
     protected void openMidiOptions() {
         if (isOverlay) {

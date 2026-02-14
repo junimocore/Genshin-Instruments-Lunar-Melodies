@@ -10,4 +10,7 @@ public record PressedMIDINote(
     int notePitch,
     NoteButton pressedNote,
     NoteSound sound
-) {}
+)
+{}
+
+

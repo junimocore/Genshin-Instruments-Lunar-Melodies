@@ -18,7 +18,7 @@ import java.awt.*;
  */
 @OnlyIn(Dist.CLIENT)
 public abstract class SingleButtonOptionsScreen extends GridInstrumentOptionsScreen {
-    private final static int SPACE_BEFORE = 20, SPACER_HEIGHT = 13;
+    private final static int SPACER_HEIGHT = 5;
     private int heightBefore;
 
     public SingleButtonOptionsScreen(final GridInstrumentScreen screen) {
@@ -46,12 +46,6 @@ public abstract class SingleButtonOptionsScreen extends GridInstrumentOptionsScr
     @Override
     public void render(GuiGraphics gui, int pMouseX, int pMouseY, float pPartialTick) {
         super.render(gui, pMouseX, pMouseY, pPartialTick);
-
-        gui.drawCenteredString(font,
-                Component.translatable(optionsLabelKey()),
-                width/2, heightBefore + SPACE_BEFORE
-                , Color.WHITE.getRGB()
-        );
     }
 
 }

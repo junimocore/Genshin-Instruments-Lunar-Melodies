@@ -72,7 +72,7 @@ public class VintageLyreScreen extends GridInstrumentScreen {
     public InstrumentMidiReceiver initMidiReceiver() {
         return new GridInstrumentMidiReceiver(this) {
             @Override
-            protected PressedMIDINote playNote(NoteButton noteBtn, @Nullable MidiOverflowResult midiOverflow, int basePitch) {
+            public PressedMIDINote playNote(NoteButton noteBtn, @Nullable MidiOverflowResult midiOverflow, int basePitch) {
                 if ((midiOverflow == null) || (midiOverflow.type() != OverflowType.TOP))
                     return super.playNote(noteBtn, midiOverflow, basePitch);
 
