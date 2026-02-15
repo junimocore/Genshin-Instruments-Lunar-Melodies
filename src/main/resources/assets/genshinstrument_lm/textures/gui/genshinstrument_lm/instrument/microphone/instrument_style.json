@@ -1,8 +1,10 @@
 {
     "note": {
-        "released": [255, 207, 96]
+        "released": [20, 20, 20]
     },
     "label": {
-        "released": [254, 217, 133]
-    }
+        "released": [130, 130, 130]
+    },
+
+    "note_ring": [50, 50, 50]
 }

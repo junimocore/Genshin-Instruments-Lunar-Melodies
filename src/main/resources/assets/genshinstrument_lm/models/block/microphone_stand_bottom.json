@@ -4,7 +4,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "genshinstrument_lm:block/microphone_stand",
-		"particle": "minecraft:block/black_wool"
+		"particle": "block/black_wool"
 	},
 	"elements": [
 		{
@@ -140,10 +140,10 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, 180, 0]
+			"rotation": [0, -180, 0]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [0, 180, 0]
+			"rotation": [0, -180, 0]
 		},
 		"firstperson_righthand": {
 			"rotation": [0, -180, 0],

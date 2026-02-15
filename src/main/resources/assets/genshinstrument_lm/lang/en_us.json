@@ -299,6 +299,9 @@
     "genshinstrument_lm.advancements.main.records_all.description": "Play all burned records",
 
 
+    "button.genshinstrument_lm.control_mode.default.description": "Default Genshin Impact controls",
+    "button.genshinstrument_lm.control_mode.octave_swap.description":
+    "Use octave swap keys to shift octaves. Key binds set in Minecraft's Options > Controls > Key Binds",
     "genshinstrument_lm.keymaps.octave_mode": "Instruments: Octave Mode",
     "genshinstrument_lm.keymaps.octave_mode.note_c": "Note C",
     "genshinstrument_lm.keymaps.octave_mode.note_csharp": "Note C#",

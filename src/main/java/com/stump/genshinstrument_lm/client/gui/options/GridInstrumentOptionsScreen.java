@@ -77,6 +77,7 @@ public class GridInstrumentOptionsScreen extends InstrumentOptionsScreen {
                 )
                 .withValues(ControlModeType.values())
                 .withInitialValue(ModClientConfigs.CONTROL_MODE.get()) // optional persistent config
+                .withTooltip((value) -> Tooltip.create(Component.translatable(value.getKey()+".description")))
                 .create(0, 0,
                         getSmallButtonWidth(), getButtonHeight(), Component.translatable("button.genshinstrument_lm.control_mode"), this::onControlModeChanged
                 );

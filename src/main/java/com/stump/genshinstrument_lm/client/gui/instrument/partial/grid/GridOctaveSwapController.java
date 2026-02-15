@@ -52,7 +52,7 @@ public class GridOctaveSwapController {
         int targetNote = baseNote + (screen.getCurrentOctave() * 12) + 12;
 
         // Forbidden high 8
-        if (screen.getMaxOctave() == 2 && targetNote == 48 || screen.getMaxOctave() == 1 && targetNote == 36) {
+        if (screen.columns() == 3 && targetNote == 48 || screen.columns() == 2 && targetNote == 36) {
             return;
         }
 
