@@ -5,6 +5,7 @@ import com.stump.genshinstrument_lm.client.config.enumType.*;
 import com.stump.genshinstrument_lm.client.gui.instrument.djemdjemdrum.DjemDjemDrumNoteLabel;
 import com.stump.genshinstrument_lm.client.gui.instrument.gloriousdrum.DominantGloriousDrumType;
 import com.stump.genshinstrument_lm.client.gui.instrument.gloriousdrum.GloriousDrumNoteLabel;
+import com.stump.genshinstrument_lm.client.gui.instrument.gw2_drum.Gw2DrumNoteLabel;
 import com.stump.genshinstrument_lm.client.gui.instrument.ukelele.Ukulele3rdOctaveType;
 import com.stump.genshinstrument_lm.client.gui.options.MidiOptionsScreen;
 import com.stump.genshinstrument_lm.client.util.ClientUtil;
@@ -44,6 +45,7 @@ public class ModClientConfigs {
     public static final EnumValue<ZitherSoundType> ZITHER_SOUND_TYPE;
     public static final EnumValue<GloriousDrumNoteLabel> GLORIOUS_DRUM_LABEL_TYPE;
     public static final EnumValue<DjemDjemDrumNoteLabel> DJEM_DJEM_DRUM_LABEL_TYPE;
+    public static final EnumValue<Gw2DrumNoteLabel> GW2_DRUM_LABEL_TYPE;
     public static final EnumValue<DominantGloriousDrumType> DOMINANT_DRUM_TYPE;
     public static final EnumValue<Ukulele3rdOctaveType> UKULELE_3RD_OCTAVE_TYPE;
 
@@ -89,6 +91,7 @@ public class ModClientConfigs {
         ZITHER_SOUND_TYPE = configBuilder.defineEnum("zither_sound_type", ZitherSoundType.NEW);
         GLORIOUS_DRUM_LABEL_TYPE = configBuilder.defineEnum("glorious_drum_label_type", GloriousDrumNoteLabel.KEYBOARD_LAYOUT);
         DJEM_DJEM_DRUM_LABEL_TYPE = configBuilder.defineEnum("djem_djem_drum_label_type", DjemDjemDrumNoteLabel.KEYBOARD_LAYOUT);
+        GW2_DRUM_LABEL_TYPE = configBuilder.defineEnum("gw2_drum_label_type", Gw2DrumNoteLabel.KEYBOARD_LAYOUT);
         KEYBOARD_SOUND_TYPE = configBuilder.defineEnum("keyboard_sound_type", KeyboardSoundType.YAMAHA_C5);
         VIOLIN_SOUND_TYPE = configBuilder.defineEnum("violin_sound_type", ViolinSoundType.FAST);
         PIPA_SOUND_TYPE = configBuilder.defineEnum("pipa_sound_type", PipaSoundType.REGULAR);

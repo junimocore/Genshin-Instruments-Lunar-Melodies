@@ -56,7 +56,15 @@ public class GISounds {
         PIPA_REGULAR = nsr(loc("pipa_regular")).registerGrid(),
         PIPA_TERMOLO = nsr(loc("pipa_tremolo")).registerGrid(),
 
-        VIOLIN_PIZZICATO = nsr(loc("violin_pizzicato")).stereo().registerGrid()
+        VIOLIN_PIZZICATO = nsr(loc("violin_pizzicato")).stereo().registerGrid(),
+
+        GW2_BASS = nsr(loc("gw2_bass")).stereo().registerGrid(),
+        GW2_BELL = nsr(loc("gw2_bell")).stereo().registerGrid(),
+        GW2_HARP = nsr(loc("gw2_harp")).stereo().registerGrid(),
+        GW2_LUTE = nsr(loc("gw2_lute")).stereo().registerGrid(),
+        GW2_MINSTREL = nsr(loc("gw2_minstrel")).stereo().registerGrid(),
+        GW2_PELL = nsr(loc("gw2_pell")).stereo().registerGrid(),
+        GW2_DRUM = nsr(loc("gw2_drum")).stereo().registerGrid(2, 5)
     ;
     
     private static final float
@@ -163,6 +171,52 @@ public class GISounds {
             .holdDelay(.03f)
             .chainedHoldDelay(-FADE_TIME * 2)
             .releaseFadeOut(FADE_TIME / 8)
+            .fullHoldFadeoutTime(2)
+            .decays(7)
+            .register(HOLD_DURATION),
+
+        GW2_HORN = hnsr(loc("gw2_horn"))
+            .holdBuilder(GISounds::threeOctaveSoundBuilder)
+            .attackBuilder(GISounds::threeOctaveSoundBuilder)
+            .holdDelay(.03f)
+            .chainedHoldDelay(-FADE_TIME * 2)
+            .releaseFadeOut(FADE_TIME / 10)
+            .fullHoldFadeoutTime(2)
+            .decays(7)
+            .register(2.5f),
+        GW2_FLUTE = hnsr(loc("gw2_flute"))
+            .holdBuilder(GISounds::twoOctaveSoundBuilder)
+            .attackBuilder(GISounds::twoOctaveSoundBuilder)
+            .holdDelay(.03f)
+            .chainedHoldDelay(-FADE_TIME * 2)
+            .releaseFadeOut(FADE_TIME / 10)
+            .fullHoldFadeoutTime(2)
+            .decays(7)
+            .register(HOLD_DURATION),
+        GW2_VERDARACH = hnsr(loc("gw2_verdarach"))
+            .holdBuilder(GISounds::threeOctaveSoundBuilder)
+            .attackBuilder(GISounds::threeOctaveSoundBuilder)
+            .holdDelay(.03f)
+            .chainedHoldDelay(-FADE_TIME * 2)
+            .releaseFadeOut(FADE_TIME / 10)
+            .fullHoldFadeoutTime(2)
+            .decays(7)
+            .register(1f),
+        GW2_ORGAN = hnsr(loc("gw2_organ"))
+            .holdBuilder(GISounds::threeOctaveSoundBuilder)
+            .attackBuilder(GISounds::threeOctaveSoundBuilder)
+            .holdDelay(.03f)
+            .chainedHoldDelay(-FADE_TIME * 2)
+            .releaseFadeOut(FADE_TIME / 10)
+            .fullHoldFadeoutTime(2)
+            .decays(7)
+            .register(2.5f),
+        GW2_QUAGGAN_ORGAN = hnsr(loc("gw2_quaggan_organ"))
+            .holdBuilder(GISounds::threeOctaveSoundBuilder)
+            .attackBuilder(GISounds::threeOctaveSoundBuilder)
+            .holdDelay(.03f)
+            .chainedHoldDelay(-FADE_TIME * 2)
+            .releaseFadeOut(FADE_TIME / 10)
             .fullHoldFadeoutTime(2)
             .decays(7)
             .register(HOLD_DURATION)

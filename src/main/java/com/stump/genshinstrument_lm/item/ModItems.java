@@ -182,10 +182,77 @@ public class ModItems {
             ),
             DEFAULT_INSTRUMENT_BLOCK_TABS
         ),
-
         KEYBOARD_STAND = registerBlockItem(ModBlocks.KEYBOARD_STAND,
             GICreativeModeTabs.INSTRUMENTS_TAB.getKey()
         ),
+
+        GW2_BASS = register("gw2_bass", () ->
+                new InstrumentItem(
+                            (player) -> sendOpenPacket(player, loc("gw2_bass"))
+                )
+        ),
+        GW2_BELL = register("gw2_bell", () ->
+                new InstrumentItem(
+                        (player) -> sendOpenPacket(player, loc("gw2_bell"))
+                )
+        ),
+        GW2_FLUTE = register("gw2_flute", () ->
+                new InstrumentItem(
+                        (player) -> sendOpenPacket(player, loc("gw2_flute"))
+                )
+        ),
+        GW2_HARP = register("gw2_harp", () ->
+                new InstrumentItem(
+                        (player) -> sendOpenPacket(player, loc("gw2_harp"))
+                )
+        ),
+        GW2_HORN = register("gw2_horn", () ->
+                new InstrumentItem(
+                        (player) -> sendOpenPacket(player, loc("gw2_horn"))
+                )
+        ),
+        GW2_LUTE = register("gw2_lute", () ->
+                new InstrumentItem(
+                        (player) -> sendOpenPacket(player, loc("gw2_lute"))
+                )
+        ),
+        GW2_MINSTREL = register("gw2_minstrel", () ->
+                new InstrumentItem(
+                        (player) -> sendOpenPacket(player, loc("gw2_minstrel"))
+                )
+        ),
+        GW2_ORGAN = register("gw2_organ", () ->
+                new InstrumentItem(
+                        (player) -> sendOpenPacket(player, loc("gw2_organ"))
+                )
+        ),
+        GW2_PELL = register("gw2_pell", () ->
+                new InstrumentItem(
+                        (player) -> sendOpenPacket(player, loc("gw2_pell"))
+                )
+        ),
+        GW2_PIANO = register("gw2_piano", () ->
+                new InstrumentItem(
+                        (player) -> sendOpenPacket(player, loc("gw2_piano"))
+                )
+        ),
+        GW2_QUAGGAN_ORGAN = register("gw2_quaggan_organ", () ->
+                new InstrumentItem(
+                        (player) -> sendOpenPacket(player, loc("gw2_quaggan_organ"))
+                )
+        ),
+        GW2_VERDARACH = register("gw2_verdarach", () ->
+                new InstrumentItem(
+                        (player) -> sendOpenPacket(player, loc("gw2_verdarach"))
+                )
+        ),
+
+        GW2_DRUM = register("gw2_drum", () ->
+                new InstrumentItem(
+                        (player) -> sendOpenPacket(player, loc("gw2_drum"))
+                )
+        ),
+
 
         LOOPER = registerBlockItem(ModBlocks.LOOPER,
             GICreativeModeTabs.MUSIC_PRODUCTION_TAB.getKey(), CreativeModeTabs.FUNCTIONAL_BLOCKS,

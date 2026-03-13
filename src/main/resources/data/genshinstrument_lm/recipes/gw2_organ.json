@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "key": {
+    "P": {
+      "item": "minecraft:potato"
+    },
+    "F": {
+      "item": "minecraft:genshinstrument_lm:gw2_flute"
+    }
+  },
+
+  "pattern": [
+    " F ",
+    "FPF",
+    " F "
+  ],
+
+  "result": {
+    "item": "genshinstrument_lm:gw2_organ"
+  }
+}

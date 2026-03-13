@@ -9,6 +9,11 @@
         "genshinstrument_lm:guitar",
         "genshinstrument_lm:pipa",
         "genshinstrument_lm:shamisen",
-        "genshinstrument_lm:koto"
+        "genshinstrument_lm:koto",
+
+        "genshinstrument_lm:gw2_bass",
+        "genshinstrument_lm:gw2_harp",
+        "genshinstrument_lm:gw2_lute",
+        "genshinstrument_lm:gw2_minstrel"
     ]
 }
