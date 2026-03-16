@@ -78,18 +78,6 @@ public abstract class InstrumentScreen extends Screen {
     }
 
     /**
-     * Supplies the given consumer with the configured default pitch
-     * set in {@link ModClientConfigs#PITCH}.
-     */
-    protected void initPitch(final Consumer<Integer> pitchConsumer) {
-        pitchConsumer.accept(ModClientConfigs.PITCH.get());
-    }
-    public void resetPitch() {
-        initPitch(this::setPitch);
-    }
-
-
-    /**
      * Represents the volume of this instrument in percentages (0% - 100%)
      */
     public int volume = (int)(ModClientConfigs.VOLUME.get() * 100);
@@ -329,7 +317,7 @@ public abstract class InstrumentScreen extends Screen {
 
     @Override
     protected void init() {
-        resetPitch();
+        setPitch(0);
         optionsScreen.init(minecraft, width, height);
 
         boolean wasEnabled = false;
@@ -510,7 +498,7 @@ public abstract class InstrumentScreen extends Screen {
     }
 
     public void resetTransposition() {
-        resetPitch();
+        setPitch(0);
         pitchChanged = false;
     }
 
@@ -568,9 +556,6 @@ public abstract class InstrumentScreen extends Screen {
     public void onOptionsOpen() {
         setFocused(null);
         minecraft.pushGuiLayer(optionsScreen);
-
-        resetPitch();
-
         isOptionsScreenActive = true;
     }
     public void onOptionsClose() {

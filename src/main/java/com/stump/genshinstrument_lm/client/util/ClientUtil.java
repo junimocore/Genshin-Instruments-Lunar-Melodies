@@ -22,7 +22,7 @@ public class ClientUtil {
     /**
      * The range from which players will stop hearing Minecraft's background music on playing
      */
-    public static final double STOP_SOUND_DISTANCE = 10;
+    public static final double STOP_SOUND_DISTANCE = 64;
 
 
     /**

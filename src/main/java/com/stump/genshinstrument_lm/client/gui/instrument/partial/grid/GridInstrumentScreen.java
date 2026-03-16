@@ -275,12 +275,6 @@ public abstract class GridInstrumentScreen extends InstrumentScreen implements I
     protected boolean identifyByPitch() { return isSSTI(); }
 
     @Override
-    protected void initPitch(Consumer<Integer> pitchConsumer) {
-        if (!isSSTI())
-            super.initPitch(pitchConsumer);
-    }
-
-    @Override
     public void setSoundOption(SoundOption option) {
         closeHeldScreen();
         super.setSoundOption(option);

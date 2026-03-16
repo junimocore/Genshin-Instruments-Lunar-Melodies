@@ -7,6 +7,7 @@ This is a fork of the Genshin Instruments and Even More Instruments! mods by Sta
 - Players now have the option to hear their own notes after they reach the server. This allows syncing with other players with high latency.
 - New sounds have been added to some instruments.
 - Microphone Instrument added.
+- Guild Wars 2 Instruments added.
 - Octave Swap control mode added.
 
 ## Build / Run

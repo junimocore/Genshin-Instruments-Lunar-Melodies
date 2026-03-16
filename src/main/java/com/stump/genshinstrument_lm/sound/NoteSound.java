@@ -37,7 +37,7 @@ public class NoteSound {
     /**
      * The range at which players with Mixed instrument sound type will start to hear Mono.
     */
-    public static final double STEREO_RANGE = 5.5;
+    public static final double STEREO_RANGE = 16;
     /**
      * The range from which players will hear instruments from their local sound output rather than the level's
      */

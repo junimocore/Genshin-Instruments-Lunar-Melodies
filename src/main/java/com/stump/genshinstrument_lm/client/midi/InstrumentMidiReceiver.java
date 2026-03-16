@@ -84,9 +84,6 @@ public abstract class InstrumentMidiReceiver {
             // Handle overflowing from Minecraft pitch limitations
             int newInsPitch = overflowRes.pitchOffset() + instrument.getPitch();
             if ((newInsPitch < NoteSound.MIN_PITCH) || (newInsPitch > NoteSound.MIN_PITCH)) {
-                // Reset their pitch to middle C.
-                if (!ModClientConfigs.PITCH.get().equals(0))
-                    ModClientConfigs.PITCH.set(0);
                 instrument.setPitch(0);
             }
         }

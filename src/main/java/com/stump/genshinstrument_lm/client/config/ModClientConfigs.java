@@ -28,7 +28,7 @@ public class ModClientConfigs {
 
     public static final ForgeConfigSpec CONFIGS;
 
-    public static final IntValue PITCH, MIDI_DEVICE_INDEX, OCTAVE_SHIFT, MIDI_CHANNEL;
+    public static final IntValue MIDI_DEVICE_INDEX, OCTAVE_SHIFT, MIDI_CHANNEL;
     public static final DoubleValue VOLUME, MIDI_IN_SENSITIVITY;
 
     public static final EnumValue<NoteGridLabel> GRID_LABEL_TYPE;
@@ -58,11 +58,7 @@ public class ModClientConfigs {
 
     static {
         final ForgeConfigSpec.Builder configBuilder = new Builder();
-    
 
-        PITCH = configBuilder.defineInRange("instrument_pitch",
-            0, NoteSound.MIN_PITCH, NoteSound.MAX_PITCH
-        );
         VOLUME = configBuilder.defineInRange("instrument_volume",
             0.5, 0, 1
         );

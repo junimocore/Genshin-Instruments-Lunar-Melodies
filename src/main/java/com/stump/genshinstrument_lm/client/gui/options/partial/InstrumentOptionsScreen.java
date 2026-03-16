@@ -133,38 +133,6 @@ public abstract class InstrumentOptionsScreen extends AbstractInstrumentOptionsS
                 getBigButtonWidth(), 20, Component.translatable(SOUND_CHANNEL_KEY), this::onChannelTypeChanged);
         rowHelper.addChild(instrumentChannel, 2);
 
-        if (isPitchSliderEnabled()) {
-            final SliderButton pitchSlider = new SliderButton(getSmallButtonWidth(),
-                getPitch(), NoteSound.MIN_PITCH, NoteSound.MAX_PITCH) {
-    
-                private static final DecimalFormat D_FORMAT = new DecimalFormat("0.00");
-                {
-                    pitch = getPitch();
-                }
-
-    
-                private int pitch;
-    
-                @Override
-                public Component getMessage() {
-                    return Component.translatable("button.genshinstrument_lm.pitch").append(": "
-                        + LabelUtil.formatNoteName(
-                            LabelUtil.getNoteName(pitch, GridInstrumentScreen.NOTE_LAYOUT, 0),
-                            false
-                        )
-                        + " ("+D_FORMAT.format(NoteSound.getPitchByNoteOffset(pitch))+")"
-                    );
-                }
-
-                @Override
-                protected void applyValue() {
-                    pitch = (int) getValueClamped();
-                    onPitchChanged(this, pitch);
-                }
-            };
-            rowHelper.addChild(pitchSlider);
-        }
-
         final SliderButton volumeSlider = new SliderButton(getSmallButtonWidth(), getVolume(), 0, 1) {
 
             @Override
@@ -252,37 +220,12 @@ public abstract class InstrumentOptionsScreen extends AbstractInstrumentOptionsS
         initControlSection(grid, rowHelper);
     }
 
-    private int getPitch() {
-        return instrumentScreen.map(InstrumentScreen::getPitch).orElseGet(ModClientConfigs.PITCH);
-    }
     private double getVolume() {
         return instrumentScreen.map(screen -> (double) screen.volume()).orElseGet(ModClientConfigs.VOLUME);
     }
 
 
     // Change handlers
-    protected void onPitchChanged(final AbstractSliderButton slider, final int pitch) {
-        instrumentScreen.ifPresentOrElse(
-            (screen) -> {
-                // This is a double slide, hence conversions to int would
-                // make unnecessary calls
-                if (screen.getPitch() == pitch)
-                    return;
-
-                // Directly save the pitch if we're on an instrument
-                // Otherwise transpositions will reset to their previous pitch
-                screen.setPitch(pitch);
-                savePitch(pitch);
-            },
-            () -> {
-                queueToSave("pitch", () -> savePitch(pitch));
-            }
-        );
-    }
-    protected void savePitch(final int newPitch) {
-        ModClientConfigs.PITCH.set(newPitch);
-    }
-
     protected void onVolumeChanged(final AbstractSliderButton slider, final double volume) {
         final int newVolume = (int)(volume * 100);
         instrumentScreen.ifPresent((screen) -> screen.volume = newVolume);
