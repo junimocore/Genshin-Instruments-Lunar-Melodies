@@ -6,7 +6,7 @@
       "item": "minecraft:potato"
     },
     "N": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:nautilus_shell"
     }
   },
 
@@ -17,6 +17,6 @@
   ],
 
   "result": {
-    "item": "genshinstrument_lm:gw2_nautilus_shell"
+    "item": "genshinstrument_lm:gw2_verdarach"
   }
 }
